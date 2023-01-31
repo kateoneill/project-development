@@ -46,15 +46,17 @@ $breakpoints: (
 }
 
 $grid-width: 1080px;
-$gutter-width: 24px;
-$gutter-horizontal: 24px;
-$col-width-full-screen: 114px;
 $grid-columns: 8;
+$grid-gutters: (
+  "0": 0,
+  "12": 12px,
+  "24": 24px,
+);
 
 //foundations for grid
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: $grid-width;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -63,6 +65,13 @@ $grid-columns: 8;
 .row {
   display: flex;
   flex-flow: row wrap;
+}
+
+//grid gutters
+@each $key, $val in $grid-gutters {
+  .gutter-#{$key} > * {
+    padding: $val;
+  }
 }
 
 @include xs {

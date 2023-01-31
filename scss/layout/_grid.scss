@@ -72,6 +72,11 @@ $grid-gutters: (
   .gutter-#{$key} > * {
     padding: $val;
   }
+
+  .gutter-#{$key} {
+    margin-left: -$val;
+    margin-right: -$val;
+  }
 }
 
 @include xs {

@@ -15,12 +15,27 @@
   padding: 0;
 }
 
+.gutter-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .gutter-12 > * {
   padding: 12px;
 }
 
+.gutter-12 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
 .gutter-24 > * {
   padding: 24px;
+}
+
+.gutter-24 {
+  margin-left: -24px;
+  margin-right: -24px;
 }
 
 @media (min-width: 0) {
@@ -232,4 +247,9 @@
     flex-grow: 0;
     width: 100%;
   }
+}
+.grey-bckg {
+  background-color: #9aa5b1;
+  padding: 20px;
+  border: 2px solid black;
 }

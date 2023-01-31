@@ -53,6 +53,9 @@ $grid-gutters: (
   "24": 24px,
 );
 
+$justifications : flex-start, flex-end, center, space-between, space-around;
+$alignments: center, start, end, flex-start, flex-end, stretch;
+
 //foundations for grid
 .container {
   width: 100%;
@@ -67,7 +70,7 @@ $grid-gutters: (
   flex-flow: row wrap;
 }
 
-//grid gutters
+//gutters
 @each $key, $val in $grid-gutters {
   .gutter-#{$key} > * {
     padding: $val;
@@ -76,6 +79,33 @@ $grid-gutters: (
   .gutter-#{$key} {
     margin-left: -$val;
     margin-right: -$val;
+  }
+}
+
+//justify content
+@each $val in $justifications {
+  .content-#{$val} {
+    justify-content: $val;
+  }
+}
+
+//align content
+@each $val in $alignments {
+  .align-content-#{$val} {
+    align-items: $val;
+  }
+}
+
+@for $i from -1 through $grid-columns {
+  @if $i == -1 {
+    .order-minus-1 {
+      order: $i
+    }
+  }
+  @else {
+    .order-#{$i} {
+      order: $i;
+    }
   }
 }
 

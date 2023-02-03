@@ -116,6 +116,17 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
     }
+
+    @if $i == -1 {
+      .xs-order-minus-1 {
+        order: $i
+      }
+    }
+    @else {
+      .xs-order-#{$i} {
+        order: $i;
+      }
+    }
   }
 }
 
@@ -125,6 +136,17 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
+    }
+
+    @if $i == -1 {
+      .sm-order-minus-1 {
+        order: $i
+      }
+    }
+    @else {
+      .sm-order-#{$i} {
+        order: $i;
+      }
     }
   }
 }
@@ -136,6 +158,17 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
     }
+
+    @if $i == -1 {
+      .md-order-minus-1 {
+        order: $i
+      }
+    }
+    @else {
+      .md-order-#{$i} {
+        order: $i;
+      }
+    }
   }
 }
 
@@ -146,6 +179,17 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
     }
+
+    @if $i == -1 {
+      .lg-order-minus-1 {
+        order: $i
+      }
+    }
+    @else {
+      .lg-order-#{$i} {
+        order: $i;
+      }
+    }
   }
 }
 
@@ -155,6 +199,17 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div($i * 100%, $grid-columns);
+    }
+
+    @if $i == -1 {
+      .xl-order-minus-1 {
+        order: $i
+      }
+    }
+    @else {
+      .xl-order-#{$i} {
+        order: $i;
+      }
     }
   }
 }

@@ -99,7 +99,7 @@ $alignments: center, start, end, flex-start, flex-end, stretch;
 @for $i from -1 through $grid-columns {
   @if $i == -1 {
     .order-minus-1 {
-      order: $i
+      order: $i;
     }
   }
   @else {

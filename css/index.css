@@ -452,8 +452,576 @@
     order: 8;
   }
 }
+.fluid-container {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.xs-container {
+  max-width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.sm-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.md-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.lg-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.xl-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.platform {
+  background-color: #3e4c59;
+  padding: 20px;
+  margin: 10px auto;
+}
+.platform.elevation-1 {
+  background-color: #616e7c;
+}
+.platform.elevation-2 {
+  background-color: #f5f7fa;
+}
+.platform.elevation-3 {
+  background-color: #e4e7eb;
+}
+.platform.elevation-4 {
+  background-color: #cbd2d9;
+}
+.platform.elevation-5 {
+  background-color: #9aa5b1;
+}
+.platform.elevation-6 {
+  background-color: #7b8794;
+}
+.platform.elevation-7 {
+  background-color: #616e7c;
+}
+.platform.elevation-8 {
+  background-color: #52606d;
+}
+.platform.elevation-9 {
+  background-color: #3e4c59;
+}
+.platform.elevation-10 {
+  background-color: #323f4b;
+}
+.platform.border-radius-1 {
+  border-radius: 1px;
+}
+.platform.border-radius-2 {
+  border-radius: 2px;
+}
+.platform.border-radius-3 {
+  border-radius: 3px;
+}
+.platform.border-radius-4 {
+  border-radius: 4px;
+}
+.platform.border-radius-5 {
+  border-radius: 5px;
+}
+.platform.border-radius-6 {
+  border-radius: 6px;
+}
+.platform.border-radius-7 {
+  border-radius: 7px;
+}
+.platform.border-radius-8 {
+  border-radius: 8px;
+}
+.platform.border-radius-9 {
+  border-radius: 9px;
+}
+.platform.border-radius-10 {
+  border-radius: 10px;
+}
+.platform.border-radius-11 {
+  border-radius: 11px;
+}
+.platform.border-radius-12 {
+  border-radius: 12px;
+}
+.platform.border-radius-13 {
+  border-radius: 13px;
+}
+.platform.border-radius-14 {
+  border-radius: 14px;
+}
+.platform.border-radius-15 {
+  border-radius: 15px;
+}
+.platform.border-radius-16 {
+  border-radius: 16px;
+}
+.platform.border-radius-17 {
+  border-radius: 17px;
+}
+.platform.border-radius-18 {
+  border-radius: 18px;
+}
+.platform.border-radius-19 {
+  border-radius: 19px;
+}
+.platform.border-radius-20 {
+  border-radius: 20px;
+}
+.platform.border-radius-21 {
+  border-radius: 21px;
+}
+.platform.border-radius-22 {
+  border-radius: 22px;
+}
+.platform.border-radius-23 {
+  border-radius: 23px;
+}
+.platform.border-radius-24 {
+  border-radius: 24px;
+}
+.platform.border-radius-25 {
+  border-radius: 25px;
+}
+.platform.border-radius-26 {
+  border-radius: 26px;
+}
+.platform.border-radius-27 {
+  border-radius: 27px;
+}
+.platform.border-radius-28 {
+  border-radius: 28px;
+}
+.platform.border-radius-29 {
+  border-radius: 29px;
+}
+.platform.border-radius-30 {
+  border-radius: 30px;
+}
+.platform.border-radius-31 {
+  border-radius: 31px;
+}
+.platform.border-radius-32 {
+  border-radius: 32px;
+}
+.platform.border-radius-33 {
+  border-radius: 33px;
+}
+.platform.border-radius-34 {
+  border-radius: 34px;
+}
+.platform.border-radius-35 {
+  border-radius: 35px;
+}
+.platform.border-radius-36 {
+  border-radius: 36px;
+}
+.platform.border-radius-37 {
+  border-radius: 37px;
+}
+.platform.border-radius-38 {
+  border-radius: 38px;
+}
+.platform.border-radius-39 {
+  border-radius: 39px;
+}
+.platform.border-radius-40 {
+  border-radius: 40px;
+}
+.platform.border-radius-41 {
+  border-radius: 41px;
+}
+.platform.border-radius-42 {
+  border-radius: 42px;
+}
+.platform.border-radius-43 {
+  border-radius: 43px;
+}
+.platform.border-radius-44 {
+  border-radius: 44px;
+}
+.platform.border-radius-45 {
+  border-radius: 45px;
+}
+.platform.border-radius-46 {
+  border-radius: 46px;
+}
+.platform.border-radius-47 {
+  border-radius: 47px;
+}
+.platform.border-radius-48 {
+  border-radius: 48px;
+}
+.platform.border-radius-49 {
+  border-radius: 49px;
+}
+.platform.border-radius-50 {
+  border-radius: 50px;
+}
+.platform.border-radius-51 {
+  border-radius: 51px;
+}
+.platform.border-radius-52 {
+  border-radius: 52px;
+}
+.platform.border-radius-53 {
+  border-radius: 53px;
+}
+.platform.border-radius-54 {
+  border-radius: 54px;
+}
+.platform.border-radius-55 {
+  border-radius: 55px;
+}
+.platform.border-radius-56 {
+  border-radius: 56px;
+}
+.platform.border-radius-57 {
+  border-radius: 57px;
+}
+.platform.border-radius-58 {
+  border-radius: 58px;
+}
+.platform.border-radius-59 {
+  border-radius: 59px;
+}
+.platform.border-radius-60 {
+  border-radius: 60px;
+}
+.platform.border-radius-61 {
+  border-radius: 61px;
+}
+.platform.border-radius-62 {
+  border-radius: 62px;
+}
+.platform.border-radius-63 {
+  border-radius: 63px;
+}
+.platform.border-radius-64 {
+  border-radius: 64px;
+}
+.platform.border-radius-65 {
+  border-radius: 65px;
+}
+.platform.border-radius-66 {
+  border-radius: 66px;
+}
+.platform.border-radius-67 {
+  border-radius: 67px;
+}
+.platform.border-radius-68 {
+  border-radius: 68px;
+}
+.platform.border-radius-69 {
+  border-radius: 69px;
+}
+.platform.border-radius-70 {
+  border-radius: 70px;
+}
+.platform.border-radius-71 {
+  border-radius: 71px;
+}
+.platform.border-radius-72 {
+  border-radius: 72px;
+}
+.platform.border-radius-73 {
+  border-radius: 73px;
+}
+.platform.border-radius-74 {
+  border-radius: 74px;
+}
+.platform.border-radius-75 {
+  border-radius: 75px;
+}
+.platform.border-radius-76 {
+  border-radius: 76px;
+}
+.platform.border-radius-77 {
+  border-radius: 77px;
+}
+.platform.border-radius-78 {
+  border-radius: 78px;
+}
+.platform.border-radius-79 {
+  border-radius: 79px;
+}
+.platform.border-radius-80 {
+  border-radius: 80px;
+}
+.platform.border-radius-81 {
+  border-radius: 81px;
+}
+.platform.border-radius-82 {
+  border-radius: 82px;
+}
+.platform.border-radius-83 {
+  border-radius: 83px;
+}
+.platform.border-radius-84 {
+  border-radius: 84px;
+}
+.platform.border-radius-85 {
+  border-radius: 85px;
+}
+.platform.border-radius-86 {
+  border-radius: 86px;
+}
+.platform.border-radius-87 {
+  border-radius: 87px;
+}
+.platform.border-radius-88 {
+  border-radius: 88px;
+}
+.platform.border-radius-89 {
+  border-radius: 89px;
+}
+.platform.border-radius-90 {
+  border-radius: 90px;
+}
+.platform.border-radius-91 {
+  border-radius: 91px;
+}
+.platform.border-radius-92 {
+  border-radius: 92px;
+}
+.platform.border-radius-93 {
+  border-radius: 93px;
+}
+.platform.border-radius-94 {
+  border-radius: 94px;
+}
+.platform.border-radius-95 {
+  border-radius: 95px;
+}
+.platform.border-radius-96 {
+  border-radius: 96px;
+}
+.platform.border-radius-97 {
+  border-radius: 97px;
+}
+.platform.border-radius-98 {
+  border-radius: 98px;
+}
+.platform.border-radius-99 {
+  border-radius: 99px;
+}
+.platform.border-radius-100 {
+  border-radius: 100px;
+}
+.platform.outline-grey {
+  border: 1px solid #3b3b3b;
+}
+.platform.outline-grey.border-1-wide {
+  border-width: 1px;
+}
+.platform.outline-grey.border-2-wide {
+  border-width: 2px;
+}
+.platform.outline-grey.border-3-wide {
+  border-width: 3px;
+}
+.platform.outline-grey.border-4-wide {
+  border-width: 4px;
+}
+.platform.outline-grey.border-5-wide {
+  border-width: 5px;
+}
+.platform.outline-grey.border-6-wide {
+  border-width: 6px;
+}
+.platform.outline-grey.border-7-wide {
+  border-width: 7px;
+}
+.platform.outline-grey.border-8-wide {
+  border-width: 8px;
+}
+.platform.outline-grey.border-9-wide {
+  border-width: 9px;
+}
+.platform.outline-grey.border-10-wide {
+  border-width: 10px;
+}
+.platform.outline-grey.border-11-wide {
+  border-width: 11px;
+}
+.platform.outline-grey.border-12-wide {
+  border-width: 12px;
+}
+.platform.outline-grey.border-13-wide {
+  border-width: 13px;
+}
+.platform.outline-grey.border-14-wide {
+  border-width: 14px;
+}
+.platform.outline-grey.border-15-wide {
+  border-width: 15px;
+}
+.platform.outline-grey.border-16-wide {
+  border-width: 16px;
+}
+.platform.outline-grey.border-17-wide {
+  border-width: 17px;
+}
+.platform.outline-grey.border-18-wide {
+  border-width: 18px;
+}
+.platform.outline-grey.border-19-wide {
+  border-width: 19px;
+}
+.platform.outline-grey.border-20-wide {
+  border-width: 20px;
+}
+.platform.outline-white {
+  border: 1px solid #f0f4f8;
+}
+.platform.outline-white.border-1-wide {
+  border-width: 1px;
+}
+.platform.outline-white.border-2-wide {
+  border-width: 2px;
+}
+.platform.outline-white.border-3-wide {
+  border-width: 3px;
+}
+.platform.outline-white.border-4-wide {
+  border-width: 4px;
+}
+.platform.outline-white.border-5-wide {
+  border-width: 5px;
+}
+.platform.outline-white.border-6-wide {
+  border-width: 6px;
+}
+.platform.outline-white.border-7-wide {
+  border-width: 7px;
+}
+.platform.outline-white.border-8-wide {
+  border-width: 8px;
+}
+.platform.outline-white.border-9-wide {
+  border-width: 9px;
+}
+.platform.outline-white.border-10-wide {
+  border-width: 10px;
+}
+.platform.outline-white.border-11-wide {
+  border-width: 11px;
+}
+.platform.outline-white.border-12-wide {
+  border-width: 12px;
+}
+.platform.outline-white.border-13-wide {
+  border-width: 13px;
+}
+.platform.outline-white.border-14-wide {
+  border-width: 14px;
+}
+.platform.outline-white.border-15-wide {
+  border-width: 15px;
+}
+.platform.outline-white.border-16-wide {
+  border-width: 16px;
+}
+.platform.outline-white.border-17-wide {
+  border-width: 17px;
+}
+.platform.outline-white.border-18-wide {
+  border-width: 18px;
+}
+.platform.outline-white.border-19-wide {
+  border-width: 19px;
+}
+.platform.outline-white.border-20-wide {
+  border-width: 20px;
+}
+.platform.outline-black {
+  border: 1px solid black;
+}
+.platform.outline-black.border-1-wide {
+  border-width: 1px;
+}
+.platform.outline-black.border-2-wide {
+  border-width: 2px;
+}
+.platform.outline-black.border-3-wide {
+  border-width: 3px;
+}
+.platform.outline-black.border-4-wide {
+  border-width: 4px;
+}
+.platform.outline-black.border-5-wide {
+  border-width: 5px;
+}
+.platform.outline-black.border-6-wide {
+  border-width: 6px;
+}
+.platform.outline-black.border-7-wide {
+  border-width: 7px;
+}
+.platform.outline-black.border-8-wide {
+  border-width: 8px;
+}
+.platform.outline-black.border-9-wide {
+  border-width: 9px;
+}
+.platform.outline-black.border-10-wide {
+  border-width: 10px;
+}
+.platform.outline-black.border-11-wide {
+  border-width: 11px;
+}
+.platform.outline-black.border-12-wide {
+  border-width: 12px;
+}
+.platform.outline-black.border-13-wide {
+  border-width: 13px;
+}
+.platform.outline-black.border-14-wide {
+  border-width: 14px;
+}
+.platform.outline-black.border-15-wide {
+  border-width: 15px;
+}
+.platform.outline-black.border-16-wide {
+  border-width: 16px;
+}
+.platform.outline-black.border-17-wide {
+  border-width: 17px;
+}
+.platform.outline-black.border-18-wide {
+  border-width: 18px;
+}
+.platform.outline-black.border-19-wide {
+  border-width: 19px;
+}
+.platform.outline-black.border-20-wide {
+  border-width: 20px;
+}
+
 .grey-bckg {
   background-color: #9aa5b1;
   padding: 20px;
   border: 2px solid black;
+}
+
+.blue-bckg {
+  background-color: #4361ee;
+  height: 150px;
+  color: white;
+  margin-top: 20px;
 }

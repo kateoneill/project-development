@@ -1,0 +1,85 @@
+@function elevation-points($key) {
+  @return map-get($elevation-points, $key)
+};
+
+.platform {
+  background-color: $cool-grey9;
+  padding: 20px;
+  margin: 10px auto;
+
+  &.elevation-1 {
+    background-color: $cool-grey1;
+  }
+
+  &.elevation-2 {
+    background-color: $cool-grey2;
+  }
+
+  &.elevation-3 {
+    background-color: $cool-grey3;
+  }
+
+  &.elevation-4 {
+    background-color: $cool-grey4;
+  }
+
+  &.elevation-5 {
+    background-color: $cool-grey5;
+  }
+
+  &.elevation-6 {
+    background-color: $cool-grey6;
+  }
+
+  &.elevation-7 {
+    background-color: $cool-grey7;
+  }
+
+  &.elevation-8 {
+    background-color: $cool-grey8;
+  }
+
+  &.elevation-9 {
+    background-color: $cool-grey9;
+  }
+
+  &.elevation-10 {
+    background-color: $cool-grey10;
+  }
+
+  @for $br from 1 through 100 {
+    &.border-radius-#{$br} {
+      border-radius: $br + 0px;
+    }
+  }
+
+  &.outline-grey {
+    border: 1px solid $grey10;
+
+    @for $bw from 1 through 20 {
+      &.border-#{$bw}-wide {
+        border-width: $bw + 0px;
+      }
+    }
+  }
+
+  &.outline-white {
+    border: 1px solid $bluey-grey2;
+
+    @for $bw from 1 through 20 {
+      &.border-#{$bw}-wide {
+        border-width: $bw + 0px;
+      }
+    }
+  }
+
+  &.outline-black {
+    border: 1px solid black;
+
+    @for $bw from 1 through 20 {
+      &.border-#{$bw}-wide {
+        border-width: $bw + 0px;
+      }
+    }
+  }
+}

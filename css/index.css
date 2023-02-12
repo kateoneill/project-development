@@ -4488,10 +4488,132 @@ img.opacity-100 {
   opacity: 100%;
 }
 
+.img-contain {
+  background-size: contain;
+}
+
+.img-cover {
+  background-size: cover;
+}
+
+.img-10 {
+  background-size: 10%;
+}
+
+.img-20 {
+  background-size: 20%;
+}
+
+.img-30 {
+  background-size: 30%;
+}
+
+.img-40 {
+  background-size: 40%;
+}
+
+.img-50 {
+  background-size: 50%;
+}
+
+.img-60 {
+  background-size: 60%;
+}
+
+.img-70 {
+  background-size: 70%;
+}
+
+.img-80 {
+  background-size: 80%;
+}
+
+.img-90 {
+  background-size: 90%;
+}
+
+.img-repeat {
+  background-repeat: repeat;
+}
+
+.img-repeat-x {
+  background-repeat: repeat-x;
+}
+
+.img-repeat-y {
+  background-repeat: repeat-y;
+}
+
+.img-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.img-space {
+  background-repeat: space;
+}
+
+.img-round {
+  background-repeat: round;
+}
+
+.img-initial {
+  background-repeat: initial;
+}
+
+.img-inherit {
+  background-repeat: inherit;
+}
+
+.position-top {
+  background-position: top;
+}
+
+.position-left {
+  background-position: left;
+}
+
+.position-center {
+  background-position: center;
+}
+
+.position-bottom {
+  background-position: bottom;
+}
+
+.position-right {
+  background-position: right;
+}
+
+.position-left {
+  background-position: left;
+}
+
+.poisition-top-left {
+  background-position: top left;
+}
+
+.poisition-bottom-left {
+  background-position: bottom left;
+}
+
+.poisition-top-right {
+  background-position: top right;
+}
+
+.poisition-bottom-right {
+  background-position: bottom right;
+}
+
 .test-images {
   background-color: white;
   width: 30%;
   padding: 20px;
+}
+
+.background-img {
+  background-image: url("../images/moon.jpg");
+  height: 450px;
+  width: 100%;
 }
 
 body {

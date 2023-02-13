@@ -1,0 +1,21 @@
+$list-types: disc, circle, square, none;
+ul {
+  color: white;
+
+  @each $list-style in $list-types {
+    &.list-style-#{$list-style} {
+      list-style-type: $list-style;
+
+      li {
+        list-style-type: $list-style;
+      }
+    }
+  }
+
+  &.horizontal {
+      li {
+        display: inline-block;
+        padding: 0 10px;
+      }
+  }
+}

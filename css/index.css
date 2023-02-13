@@ -4616,6 +4616,38 @@ img.opacity-100 {
   width: 100%;
 }
 
+ul {
+  color: white;
+}
+ul.list-style-disc {
+  list-style-type: disc;
+}
+ul.list-style-disc li {
+  list-style-type: disc;
+}
+ul.list-style-circle {
+  list-style-type: circle;
+}
+ul.list-style-circle li {
+  list-style-type: circle;
+}
+ul.list-style-square {
+  list-style-type: square;
+}
+ul.list-style-square li {
+  list-style-type: square;
+}
+ul.list-style-none {
+  list-style-type: none;
+}
+ul.list-style-none li {
+  list-style-type: none;
+}
+ul.horizontal li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
 body {
   background-color: #121212;
 }

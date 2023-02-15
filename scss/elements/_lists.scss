@@ -11,12 +11,37 @@ ul {
       }
     }
   }
+}
 
-  &.horizontal {
+$number-list-types: armenian, cjk-ideographic, decimal, decimal-leading-zero, Georgian, Hebrew, hiragana, hiragana-iroha, katakana, katakana-iroha, lower-alpha, lower-greek, lower-latin, lower-roman, upper-alpha, upper-greek, upper-latin, upper-roman, none, inherit;
+ol {
+  color: white;
+
+  @each $number-lists in $number-list-types {
+    &.list-style-#{$number-lists} {
+      list-style-type: $number-lists;
+
       li {
-        display: inline-block;
-        padding: 0 10px;
+        list-style-type: $number-lists;
       }
+    }
+  }
+}
+
+ol, ul {
+  &.horizontal {
+    li {
+      display: inline-block;
+      padding: 0 10px;
+    }
+  }
+
+  @for $line-height from 1 through 300 {
+    @if $line-height % 5 == 0 {
+      &.line-height-#{$line-height} {
+        line-height: 0% + $line-height;
+      }
+    }
   }
 
   @for $padding from 1 through 100 {
@@ -85,25 +110,25 @@ ul {
         padding: $padding + 0px;
       }
     }
-  
+
     @for $paddingleft from 1 through 100 {
       &.padding-left-#{$paddingleft} {
         padding-left: $paddingleft + 0px;
       }
     }
-  
+
     @for $paddingright from 1 through 100 {
       &.padding-right-#{$paddingright} {
         padding-right: $paddingright + 0px;
       }
     }
-  
+
     @for $paddingtop from 1 through 100 {
       &.padding-top-#{$paddingtop} {
         padding-top: $paddingtop + 0px;
       }
     }
-  
+
     @for $paddingbottom from 1 through 100 {
       &.padding-bottom-#{$paddingbottom} {
         padding-bottom: $paddingbottom + 0px;
@@ -115,25 +140,25 @@ ul {
         margin: $margin + 0px;
       }
     }
-  
+
     @for $marginleft from 1 through 100 {
       &.margin-left-#{$marginleft} {
         margin-left: $marginleft + 0px;
       }
     }
-  
+
     @for $marginright from 1 through 100 {
       &.margin-right-#{$marginright} {
         margin-right: $marginright + 0px;
       }
     }
-  
+
     @for $margintop from 1 through 100 {
       &.margin-top-#{$margintop} {
         margin-top: $margintop + 0px;
       }
     }
-  
+
     @for $marginbottom from 1 through 100 {
       &.margin-bottom-#{$marginbottom} {
         margin-bottom: $marginbottom + 0px;
@@ -141,3 +166,4 @@ ul {
     }
   }
 }
+  

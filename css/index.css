@@ -488,6 +488,10 @@
   padding: 15px;
 }
 
+.display-flex {
+  display: flex;
+}
+
 .platform {
   background-color: #3e4c59;
   padding: 20px;

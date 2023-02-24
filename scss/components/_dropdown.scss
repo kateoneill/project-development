@@ -30,6 +30,33 @@ $grey-colours: (
   a {
     padding: 20px;
     display: block;
+
+    @for $border from 1 through 20 {
+      &.border-top-#{$border} {
+        border-top-color: $grey11;
+        border-top-width: $border + 0px;
+        border-top-style: solid;
+      }
+
+      &.border-bottom-#{$border} {
+        border-bottom-color: $grey11;
+        border-bottom-width: $border + 0px;
+        border-bottom-style: solid;
+      }
+
+      &.border-left-#{$border} {
+        border-left-color: $grey11;
+        border-left-width: $border + 0px;
+        border-left-style: solid;
+      }
+
+      &.border-right-#{$border} {
+        border-right-color: $grey11;
+        border-right-width: $border + 0px;
+        border-right-style: solid;
+      }
+    }
+    
   }
 
   @each $key, $val in $grey-colours {

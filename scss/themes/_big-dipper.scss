@@ -1,5 +1,80 @@
+$bg-d-colours: (
+  "orange": $bg-orange,
+  "yellow": $bg-yellow,
+  "blue": $bg-turq,
+  "red": $bg-red,
+  "green": $bg-green,
+  "pink": $bg-pink,
+  "white": $bg-white,
+  "primary": $bg-orange,
+  "secondary": $bg-turq
+);
+
 body {
  background-color: #121212;
+}
+
+.dropdown {
+  @each $key, $val in $bg-d-colours {
+    .#{$key} {
+      background-color: $val;
+    }
+  }
+}
+
+.button {
+  @each $key, $val in $bg-d-colours {
+    &.#{$key} {
+      background-color: $val;
+      border: $val 3px solid;
+      color: #ffffff;
+
+      @if($key == white) {
+        color: #111111;
+      }
+
+      &.hover-outline {
+        &:hover {
+          background-color: #121212;
+          border: $val 3px solid;
+        }
+      }
+    }
+
+    @for $ol from 1 through 20 {
+      &.outline-#{$key}-#{$ol} {
+        border-width: $ol + 0px;
+        border-color: $val;
+        border-style: solid;
+
+        &.hover-fill {
+          &:hover {
+            background-color: $val;
+            border-width: $ol + 0px;
+            border-color: $val;
+            border-style: solid;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  @each $key, $val in $bg-d-colours {
+    &.hover-#{$key} {
+      &:hover {
+        background-color: $val;
+        border: $val 3px solid;
+      }
+    }
+  }
+
+  &.hover-dull {
+    &:hover {
+      opacity: 80%;
+    }
+  }
 }
 
 .grey-bckg {
@@ -27,3 +102,4 @@ h5 {
   color: white;
   opacity: 78%;
 }
+

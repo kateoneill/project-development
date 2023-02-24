@@ -1,0 +1,82 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+
+  //customisable padding
+  @for $padding from 1 through 100 {
+    &.padding-#{$padding} {
+      padding: $padding + 0px;
+    }
+  }
+
+  @for $paddingleft from 1 through 100 {
+    &.padding-left-#{$paddingleft} {
+      padding-left: $paddingleft + 0px;
+    }
+  }
+
+  @for $paddingright from 1 through 100 {
+    &.padding-right-#{$paddingright} {
+      padding-right: $paddingright + 0px;
+    }
+  }
+
+  @for $paddingtop from 1 through 100 {
+    &.padding-top-#{$paddingtop} {
+      padding-top: $paddingtop + 0px;
+    }
+  }
+
+  @for $paddingbottom from 1 through 100 {
+    &.padding-bottom-#{$paddingbottom} {
+      padding-bottom: $paddingbottom + 0px;
+    }
+  }
+
+  @for $margin from 1 through 100 {
+    &.margin-#{$margin} {
+      margin: $margin + 0px;
+    }
+  }
+
+  @for $marginleft from 1 through 100 {
+    &.margin-left-#{$marginleft} {
+      margin-left: $marginleft + 0px;
+    }
+  }
+
+  @for $marginright from 1 through 100 {
+    &.margin-right-#{$marginright} {
+      margin-right: $marginright + 0px;
+    }
+  }
+
+  @for $margintop from 1 through 100 {
+    &.margin-top-#{$margintop} {
+      margin-top: $margintop + 0px;
+    }
+  }
+
+  @for $marginbottom from 1 through 100 {
+    &.margin-bottom-#{$marginbottom} {
+      margin-bottom: $marginbottom + 0px;
+    }
+  }
+
+  @for $br from 1 through 100 {
+    &.border-radius-#{$br} {
+      border-radius: $br + 0px;
+    }
+  } 
+
+  @for $btn-width from 1 through 100 {
+    @if $btn-width % 10 == 0 {
+      &.width-#{$btn-width} {
+        width: 0% + $btn-width;
+        text-align: center;
+      }
+    }
+  }
+}

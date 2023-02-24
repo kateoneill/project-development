@@ -6108,6 +6108,10 @@
   display: block;
 }
 
+.open-drop {
+  display: block;
+}
+
 img.fit-width {
   width: 100%;
   height: auto;

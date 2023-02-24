@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS-GRID</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="index.js"></script>
 </head>
 <body>
     <section class="grid-test">
@@ -356,6 +357,34 @@
         <a href="#" class="button padding-15 margin-20 pink hover-outline">Pink button w/ outline hover</a> </br>
         <a href="#" class="button padding-15 margin-20 orange hover-blue">Orange button w/ blue hover</a> </br>
         <a href="#" class="button padding-15 margin-20 blue hover-pink width-80">Blue button w/ pink hover width-80</a> </br>
+
+        <h2>Dropdown</h2>
+        <div class="dropdown">
+            <a class="button outline-pink-5 hover-fill">Hover Dropdown</a>
+            <div class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                <a href="#" class="border-left-2">Link 1</a>
+                <a href="#" class="border-bottom-5">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown-click" id="dropdown-click">
+            <a onclick="clickDropdown()" class="click-drop button outline-pink-5 hover-fill">Click Dropdown</a>
+            <div id="drop-click" class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                <a href="#" class="border-left-2">Link 1</a>
+                <a href="#" class="border-bottom-5">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown-open" id="dropdown-open">
+            <a onclick="stayOpen()" class="open-drop button outline-pink-5 hover-fill">Click Dropdown</a>
+            <div id="drop-open" class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                <a href="#" class="border-left-2">Link 1</a>
+                <a href="#" class="border-bottom-5">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
     </section>
 </body>
 </html>

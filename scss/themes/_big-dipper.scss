@@ -20,6 +20,18 @@ body {
       background-color: $val;
     }
   }
+
+  .dropdown-content {
+    @each $key, $val in $bg-d-colours {
+      &.hover-#{$key} {
+        a {
+          &:hover {
+            background-color: $val;
+          }
+        }
+      }
+    }
+  }
 }
 
 .button {

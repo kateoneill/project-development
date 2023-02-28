@@ -1,0 +1,64 @@
+$fonts: Lato, Roboto, RobotoSlab, Merriweather;
+
+$font-weights: (
+  "thin": 100,
+  "extra-light": 200,
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semi-bold": 600,
+  "bold": 700,
+  "extra-black": 800,
+  "black": 900
+);
+
+$font-colours: (
+  "white": white,
+  "grey1": $cool-grey1,
+  "grey2": $cool-grey2,
+  "grey3": $cool-grey3,
+  "grey4": $cool-grey4,
+  "grey5": $cool-grey5,
+  "grey6": $cool-grey6,
+  "grey7": $cool-grey7,
+  "grey8": $cool-grey8,
+  "grey9": $cool-grey9,
+  "grey10": $cool-grey10,
+  "grey11": $cool-grey11,
+  "black": black
+);
+
+$font-style: normal, italic;
+
+@each $font in $fonts {
+  .#{$font}{
+    font-family: $font;
+
+    @each $key, $val in $font-weights {
+      &.#{$key} {
+        font-weight: $val;
+      }
+    }
+
+    @each $fs in $font-style{
+      &.#{$fs} {
+        font-style: $fs;
+      }
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  @each $key, $val in $font-colours {
+    &.#{$key} {
+      color: $val;
+    }
+  }
+}

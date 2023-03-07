@@ -33,32 +33,78 @@
     </div>
     <div class="xs-8-wide md-6-wide">
       <div class="main-content">
-        <h4 class="subheading">Layout</h4>
-        <h1 class="Title">Grid</h1>
-        <p> 
+        <h4 class="subheading Roboto grey5">Layout</h4>
+        <h1 class="Title Roboto">Grid</h1>
+        <p class="Roboto grey3"> 
           At the foundation of any framework is a way to make it repsonsive. Make the content readable and presentable for all devices.
           Constellation Ui has created an 8-col grid to help you in these situations
         </p>
         <div class="platform elevation-7">
-          <h3>Sample Grid</h3>
-          <div class="section display-flex">
-            <div class="sample-grid-section md-2-wide"> .md-2-wide</div>
-            <div class="sample-grid-section md-2-wide"> .md-2-wide</div>
-            <div class="sample-grid-section md-2-wide"> .md-2-wide</div>
-            <div class="sample-grid-section md-2-wide"> .md-2-wide</div>
+          <h3 class="Roboto grey2">Sample Grid</h3>
+          <div class="row">
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px">.xs-4-wide .md-2-wide</div>
+            <div class="sample-grid-section xs-4-wide  md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
           </div>
           <div class="platform elevation-5">
+            <h5 class="grey10 Roboto"> Sample Code </h5>
             <code>
-              <h5> Sample Code </h5>
-                &lt;div class="container-xl md-2-wide"&gt; &lt;/div&gt; </br>
-                &lt;div class="container-xl md-2-wide"&gt; &lt;/div&gt; </br>
-                &lt;div class="container-xl md-2-wide"&gt; &lt;/div&gt;
+              &lt;div class="container-xl"&gt; </br>
+                &lt;div class="row"&gt; </br>
+                  &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                  &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                  &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt;<br>
+                  &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt;<br>
+                &lt;/div&gt;
             </code>
           </div>
         </div>
-        <p>
-          
-        </p>
+        <div class="row gutter-24" style="padding-top:20px">
+          <div class="xs-12-wide md-5-wide">
+            <p class="Roboto grey3">
+              Constellation UI is fully responsive. There are a variety of classes that allow as much customisability as possible. Constellation UI is
+              an 8-col grid system. A row has 8 columns in a row. How the user chooses to organise those is completely up to them. </p>
+              
+            <p class="Roboto grey3">If you want a sidebar do 2-wide and 6-wide columns. Want a variety of cards, do 4 2-wide columns. There's an abundance of options and variety for users to include.</p>
+            
+            <p class="Roboto grey3">All the different breakpoints have their own classes. It is a mobile first framework so it works upward. If you want your framework to be full width on 
+              mobile devices but 50-50 on laptop size simply add the class xs-12-wide md-4-wide
+            </p>
+          </div>
+          <div class="xs-12-wide md-3-wide">
+            <img src="grid.png" alt="Grid system" class="fit-height">
+          </div>
+        </div>
+        <div class="row">
+          <div class="xs-12-wide">
+            <p class="Roboto grey3">
+              For maximum customisability there are classes available to add a variety of gutter widths: 0, 12px and 24px. The default gutter width is 0px. To add gutter add a declaration to the row as follows:
+              <div class="platform elevation-7">
+                <h3 class="Roboto grey2">Sample Grid</h3>
+                <div class="row gutter-12">
+                  <div class="sample-grid-section xs-12-wide md-6-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Lato grey3">.xs-12-wide .md-6-wide</h5></div></div>
+                  <div class="sample-grid-section xs-12-wide  md-2-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Lato grey3">.xs-12-wide .md-2-wide</h5></div></div>
+                </div>
+                <div class="platform elevation-5">
+                  <h5 class="grey10 Roboto"> Sample Code </h5>
+                  <code>
+                    &lt;div class="container-xl"&gt; </br>
+                      &lt;div class="row gutter-12"&gt; </br>
+                        &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                        &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                      &lt;/div&gt;
+                  </code>
+                </div>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="xs-12-wide">
+            <h2 class="grey4">add things for the order classes here </h2>
+          </div>
+        </div>
       </div>
     </div>
   </div>

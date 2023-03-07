@@ -1,4 +1,20 @@
 $fonts: Lato, Roboto, RobotoSlab, Merriweather;
+$transform: uppercase, lowercase, capitalize;
+$line-decoration: overline, underline, line-through;
+$line-style: solid, double, dotted, dashed;
+$text-align: left, right, center;
+
+$line-height: (
+  "point1": 0.1,
+  "point2": 0.2,
+  "point3": 0.3,
+  "point4": 0.4,
+  "point5": 0.5,
+  "point6": 0.6,
+  "point7": 0.7,
+  "point8": 0.8,
+  "point9": 0.9
+);
 
 $font-weights: (
   "thin": 100,
@@ -61,4 +77,65 @@ a {
       color: $val;
     }
   }
+
+  @for $space from 1 through 30 {
+    &.ls-#{$space} {
+      letter-spacing: $space + 0px;
+    }
+  }
+  
+  @for $space from 1 through 100 {
+    &.ti-#{$space} {
+      text-indent: $space + 0px;
+    }
+  }
+  
+  @for $space from 0 through 100 {
+    &.ws-#{$space} {
+      word-spacing: $space + 0px;
+    }
+  }
+  
+  @each $key, $val in $line-height {
+    &.lh-#{$key} {
+      line-height: $val;
+    }
+  }
+
+  @for $lh2 from 1 through 30 {
+    &.lh-#{$lh2} {
+      line-height: $lh2;
+    }
+  }
+
+  @each $tp in $transform {
+    &.text-#{$tp} {
+      text-transform: $tp;
+    }
+  }
+
+  @each $ld in $line-decoration {
+    &.line-decoration-#{$ld} {
+      text-decoration: $ld;
+    }
+  }
+
+  @each $ls in $line-style {
+    &.line-style-#{$ls} {
+      text-decoration-style: $ls;
+    }
+  }
+
+  @for $tdt from 1 through 50 {
+    &.line-thick-#{$tdt} {
+      text-decoration-thickness: $tdt + 0px;
+    }
+  }
+
+  @each $ta in $text-align {
+    &.align-#{$ta} {
+      text-align: $ta;
+    }
+  }
 }
+

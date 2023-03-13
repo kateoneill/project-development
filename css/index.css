@@ -6767,6 +6767,9 @@ ol.horizontal li, ul.horizontal li {
   display: inline-block;
   padding: 0 10px;
 }
+ol.horizontal li::before, ul.horizontal li::before {
+  content: inherit;
+}
 ol.line-height-5, ul.line-height-5 {
   line-height: 5%;
 }

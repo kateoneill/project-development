@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Styling</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <script src="../index.js"></script>
+</head>
+<body>
+  <div class="xl-container display-flex">
+    <div class="row">
+      <div class="xs-8-wide md-2-wide">
+        <div class="sidebar">
+          <ul class="list-style-none">
+            <li>
+              <a href="about.html"> About </a>
+            </li>
+            <li>
+              <a href="getting-started.html"> Getting Started</a>
+            </li>
+            <li>
+              <a href="layout.html"> Getting Started</a>
+            </li>
+            <li>
+              <a href="elements.html"> Getting Started</a>
+            </li>
+            <li>
+              <a href="components.html"> Getting Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="xs-8-wide md-6-wide">
+        <div class="main-content">
+          <h4 class="subheading Roboto grey5">Components</h4>
+          <h1 class="Title Roboto">Dropdown</h1>
+          <p class="Roboto grey3"> 
+            Build on your buttons and provide dropdown menus
+          </p>
+          <div class="platform elevation-7">
+            <h3 class="Roboto grey2">Sample Dropdown Styling</h3>
+            <div class="row">
+              <div class="xs-2-wide">
+                  <div class="dropdown">
+                      <a class="button outline-pink-5 hover-fill">Hover Dropdown</a>
+                      <div class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                          <a href="#" class="border-left-2">Link 1</a>
+                          <a href="#" class="border-bottom-5">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="xs-2-wide">
+                  <div class="dropdown-click" id="dropdown-click">
+                      <a onclick="clickDropdown()" class="click-drop button outline-yellow-5 hover-fill">Click Dropdown</a>
+                      <div id="drop-click" class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                          <a href="#" class="border-left-2">Link 1</a>
+                          <a href="#" class="border-bottom-5">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="xs-2-wide">
+                  <div class="dropdown-open" id="dropdown-open">
+                      <a onclick="stayOpen()" class="open-drop button orange hover-outline">Click Dropdown</a>
+                      <div id="drop-open" class="dropdown-content grey-7-bckg padding-10 hover-orange">
+                          <a href="#" class="border-left-2">Link 1</a>
+                          <a href="#" class="border-bottom-5">Link 2</a>
+                          <a href="#">Link 3</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              <div class="platform elevation-5" style="margin-bottom:20px;">
+                <h5 class="grey10 Roboto"> Sample Code </h5>
+                <code>
+                  &lt;div class="row gutter-12"&gt; </br>
+                  &lt;div class="x-2-wide"&gt; </br>
+                      &lt;div class="dropdown" &gt; </br>
+                      &lt;a class="button outline-pink-5 hover-fill"&gt;Hover Dropdown &lt;/a&gt;</br>
+                        &lt;div class="dropdown-content grey-7-bckg padding-10 hover-orange"&gt; </br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 1 &lt;/a&gt;</br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 2 &lt;/a&gt;</br>
+                          &lt;a href="#"&gt; Link 3 &lt;/a&gt;</br>
+                          &lt;/div"&gt; </br>
+                        &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                    &lt;div class="x-2-wide"&gt; </br>
+                      &lt;div class="dropdown-click" id="dropdown-click"&gt; </br>
+                      &lt;a onclick="clickDropdown()" class="click-drop button outline-yellow-5 hover-fill"&gt;Click Dropdown &lt;/a&gt;</br>
+                        &lt;div id="drop-click" class="dropdown-content grey-7-bckg padding-10 hover-orange"&gt; </br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 1 &lt;/a&gt;</br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 2 &lt;/a&gt;</br>
+                          &lt;a href="#"&gt; Link 3 &lt;/a&gt;</br>
+                          &lt;/div"&gt; </br>
+                        &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                      &lt;div class="x-2-wide"&gt; </br>
+                      &lt;div class="dropdown-open" id="dropdown-open"&gt; </br>
+                      &lt;a onclick="stayOpen()" class="open-drop button orange hover-outline"&gt;Click Dropdown &lt;/a&gt;</br>
+                        &lt;div id="drop-open" class="dropdown-content grey-7-bckg padding-10 hover-orange"&gt; </br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 1 &lt;/a&gt;</br>
+                          &lt;a href="#" class="border-left-2"&gt; Link 2 &lt;/a&gt;</br>
+                          &lt;a href="#"&gt; Link 3 &lt;/a&gt;</br>
+                          &lt;/div"&gt; </br>
+                        &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                      &lt;/div"&gt; </br>
+                    &lt;/div&gt;
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -69,7 +69,9 @@
     object-fit:cover;
 
     &.with-hover {
-      transition: all .25s ease-in-out;
+      &:hover {
+        transition: all .25s ease-in-out;
+      }
     }
   }
 
@@ -84,17 +86,17 @@
  }
 
   @for $card-width from 1 through 100 {
-    @if $card-width % 10 == 0 {
+    @if $card-width % 5 == 0 {
       &.horizontal-#{$card-width} {
-        max-width: 0% + $card-width;
+        width: 0% + $card-width;
       }
     }
   }
 
   @for $cw from 1 through 100 {
-    @if $cw % 10 == 0 {
+    @if $cw % 5 == 0 {
       &.vertical-#{$cw} {
-        max-width: 0% + $cw;
+        width: 0% + $cw;
       }
     }
   }
@@ -103,16 +105,19 @@
     display: flex;
 
     img {
-      max-width: 40%;
+      width: 40%;
       position: relative;
       overflow: hidden;
-      max-width: 40%;
       margin-right: 15px;
     }
   }
 
   .v-w-img {
     padding-bottom: 20px;
+
+    img {
+      margin-bottom: 10px;
+    }
   }
 
   .horizontal {

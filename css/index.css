@@ -45157,3 +45157,3248 @@ h5 {
   color: white;
   opacity: 78%;
 }
+
+.cassiopeia .dropdown .orange {
+  background-color: #ffc39b;
+}
+.cassiopeia .dropdown .yellow {
+  background-color: #ffd030;
+}
+.cassiopeia .dropdown .blue {
+  background-color: #1aa1ff;
+}
+.cassiopeia .dropdown .red {
+  background-color: #ff6b57;
+}
+.cassiopeia .dropdown .green {
+  background-color: #00c796;
+}
+.cassiopeia .dropdown .purple {
+  background-color: #d198ff;
+}
+.cassiopeia .dropdown .white {
+  background-color: #fdf8f5;
+}
+.cassiopeia .dropdown .dropdown-content.hover-orange a:hover {
+  background-color: #ffc39b;
+}
+.cassiopeia .dropdown .dropdown-content.hover-yellow a:hover {
+  background-color: #ffd030;
+}
+.cassiopeia .dropdown .dropdown-content.hover-blue a:hover {
+  background-color: #1aa1ff;
+}
+.cassiopeia .dropdown .dropdown-content.hover-red a:hover {
+  background-color: #ff6b57;
+}
+.cassiopeia .dropdown .dropdown-content.hover-green a:hover {
+  background-color: #00c796;
+}
+.cassiopeia .dropdown .dropdown-content.hover-purple a:hover {
+  background-color: #d198ff;
+}
+.cassiopeia .dropdown .dropdown-content.hover-white a:hover {
+  background-color: #fdf8f5;
+}
+.cassiopeia .button.orange {
+  background-color: #ffc39b;
+  border: #ffc39b 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.orange.hover-outline:hover {
+  background-color: #121212;
+  border: #ffc39b 3px solid;
+}
+.cassiopeia .button.outline-orange-1 {
+  border-width: 1px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-1.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 1px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-2 {
+  border-width: 2px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-2.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 2px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-3 {
+  border-width: 3px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-3.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 3px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-4 {
+  border-width: 4px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-4.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 4px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-5 {
+  border-width: 5px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-5.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 5px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-6 {
+  border-width: 6px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-6.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 6px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-7 {
+  border-width: 7px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-7.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 7px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-8 {
+  border-width: 8px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-8.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 8px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-9 {
+  border-width: 9px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-9.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 9px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-10 {
+  border-width: 10px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-10.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 10px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-11 {
+  border-width: 11px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-11.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 11px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-12 {
+  border-width: 12px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-12.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 12px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-13 {
+  border-width: 13px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-13.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 13px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-14 {
+  border-width: 14px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-14.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 14px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-15 {
+  border-width: 15px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-15.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 15px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-16 {
+  border-width: 16px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-16.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 16px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-17 {
+  border-width: 17px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-17.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 17px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-18 {
+  border-width: 18px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-18.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 18px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-19 {
+  border-width: 19px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-19.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 19px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-20 {
+  border-width: 20px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.outline-orange-20.hover-fill:hover {
+  background-color: #ffc39b;
+  border-width: 20px;
+  border-color: #ffc39b;
+  border-style: solid;
+}
+.cassiopeia .button.yellow {
+  background-color: #ffd030;
+  border: #ffd030 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.yellow.hover-outline:hover {
+  background-color: #121212;
+  border: #ffd030 3px solid;
+}
+.cassiopeia .button.outline-yellow-1 {
+  border-width: 1px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-1.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 1px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-2 {
+  border-width: 2px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-2.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 2px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-3 {
+  border-width: 3px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-3.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 3px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-4 {
+  border-width: 4px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-4.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 4px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-5 {
+  border-width: 5px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-5.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 5px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-6 {
+  border-width: 6px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-6.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 6px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-7 {
+  border-width: 7px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-7.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 7px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-8 {
+  border-width: 8px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-8.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 8px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-9 {
+  border-width: 9px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-9.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 9px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-10 {
+  border-width: 10px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-10.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 10px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-11 {
+  border-width: 11px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-11.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 11px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-12 {
+  border-width: 12px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-12.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 12px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-13 {
+  border-width: 13px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-13.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 13px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-14 {
+  border-width: 14px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-14.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 14px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-15 {
+  border-width: 15px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-15.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 15px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-16 {
+  border-width: 16px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-16.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 16px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-17 {
+  border-width: 17px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-17.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 17px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-18 {
+  border-width: 18px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-18.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 18px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-19 {
+  border-width: 19px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-19.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 19px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-20 {
+  border-width: 20px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.outline-yellow-20.hover-fill:hover {
+  background-color: #ffd030;
+  border-width: 20px;
+  border-color: #ffd030;
+  border-style: solid;
+}
+.cassiopeia .button.blue {
+  background-color: #1aa1ff;
+  border: #1aa1ff 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.blue.hover-outline:hover {
+  background-color: #121212;
+  border: #1aa1ff 3px solid;
+}
+.cassiopeia .button.outline-blue-1 {
+  border-width: 1px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-1.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 1px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-2 {
+  border-width: 2px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-2.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 2px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-3 {
+  border-width: 3px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-3.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 3px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-4 {
+  border-width: 4px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-4.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 4px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-5 {
+  border-width: 5px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-5.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 5px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-6 {
+  border-width: 6px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-6.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 6px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-7 {
+  border-width: 7px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-7.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 7px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-8 {
+  border-width: 8px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-8.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 8px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-9 {
+  border-width: 9px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-9.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 9px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-10 {
+  border-width: 10px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-10.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 10px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-11 {
+  border-width: 11px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-11.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 11px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-12 {
+  border-width: 12px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-12.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 12px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-13 {
+  border-width: 13px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-13.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 13px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-14 {
+  border-width: 14px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-14.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 14px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-15 {
+  border-width: 15px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-15.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 15px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-16 {
+  border-width: 16px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-16.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 16px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-17 {
+  border-width: 17px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-17.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 17px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-18 {
+  border-width: 18px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-18.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 18px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-19 {
+  border-width: 19px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-19.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 19px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-20 {
+  border-width: 20px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-blue-20.hover-fill:hover {
+  background-color: #1aa1ff;
+  border-width: 20px;
+  border-color: #1aa1ff;
+  border-style: solid;
+}
+.cassiopeia .button.red {
+  background-color: #ff6b57;
+  border: #ff6b57 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.red.hover-outline:hover {
+  background-color: #121212;
+  border: #ff6b57 3px solid;
+}
+.cassiopeia .button.outline-red-1 {
+  border-width: 1px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-1.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 1px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-2 {
+  border-width: 2px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-2.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 2px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-3 {
+  border-width: 3px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-3.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 3px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-4 {
+  border-width: 4px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-4.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 4px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-5 {
+  border-width: 5px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-5.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 5px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-6 {
+  border-width: 6px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-6.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 6px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-7 {
+  border-width: 7px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-7.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 7px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-8 {
+  border-width: 8px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-8.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 8px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-9 {
+  border-width: 9px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-9.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 9px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-10 {
+  border-width: 10px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-10.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 10px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-11 {
+  border-width: 11px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-11.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 11px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-12 {
+  border-width: 12px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-12.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 12px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-13 {
+  border-width: 13px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-13.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 13px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-14 {
+  border-width: 14px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-14.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 14px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-15 {
+  border-width: 15px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-15.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 15px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-16 {
+  border-width: 16px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-16.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 16px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-17 {
+  border-width: 17px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-17.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 17px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-18 {
+  border-width: 18px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-18.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 18px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-19 {
+  border-width: 19px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-19.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 19px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-20 {
+  border-width: 20px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.outline-red-20.hover-fill:hover {
+  background-color: #ff6b57;
+  border-width: 20px;
+  border-color: #ff6b57;
+  border-style: solid;
+}
+.cassiopeia .button.green {
+  background-color: #00c796;
+  border: #00c796 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.green.hover-outline:hover {
+  background-color: #121212;
+  border: #00c796 3px solid;
+}
+.cassiopeia .button.outline-green-1 {
+  border-width: 1px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-1.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 1px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-2 {
+  border-width: 2px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-2.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 2px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-3 {
+  border-width: 3px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-3.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 3px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-4 {
+  border-width: 4px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-4.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 4px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-5 {
+  border-width: 5px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-5.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 5px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-6 {
+  border-width: 6px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-6.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 6px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-7 {
+  border-width: 7px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-7.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 7px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-8 {
+  border-width: 8px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-8.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 8px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-9 {
+  border-width: 9px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-9.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 9px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-10 {
+  border-width: 10px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-10.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 10px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-11 {
+  border-width: 11px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-11.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 11px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-12 {
+  border-width: 12px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-12.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 12px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-13 {
+  border-width: 13px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-13.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 13px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-14 {
+  border-width: 14px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-14.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 14px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-15 {
+  border-width: 15px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-15.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 15px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-16 {
+  border-width: 16px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-16.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 16px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-17 {
+  border-width: 17px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-17.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 17px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-18 {
+  border-width: 18px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-18.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 18px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-19 {
+  border-width: 19px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-19.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 19px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-20 {
+  border-width: 20px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.outline-green-20.hover-fill:hover {
+  background-color: #00c796;
+  border-width: 20px;
+  border-color: #00c796;
+  border-style: solid;
+}
+.cassiopeia .button.purple {
+  background-color: #d198ff;
+  border: #d198ff 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.purple.hover-outline:hover {
+  background-color: #121212;
+  border: #d198ff 3px solid;
+}
+.cassiopeia .button.outline-purple-1 {
+  border-width: 1px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-1.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 1px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-2 {
+  border-width: 2px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-2.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 2px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-3 {
+  border-width: 3px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-3.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 3px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-4 {
+  border-width: 4px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-4.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 4px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-5 {
+  border-width: 5px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-5.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 5px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-6 {
+  border-width: 6px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-6.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 6px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-7 {
+  border-width: 7px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-7.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 7px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-8 {
+  border-width: 8px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-8.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 8px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-9 {
+  border-width: 9px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-9.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 9px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-10 {
+  border-width: 10px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-10.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 10px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-11 {
+  border-width: 11px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-11.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 11px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-12 {
+  border-width: 12px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-12.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 12px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-13 {
+  border-width: 13px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-13.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 13px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-14 {
+  border-width: 14px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-14.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 14px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-15 {
+  border-width: 15px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-15.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 15px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-16 {
+  border-width: 16px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-16.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 16px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-17 {
+  border-width: 17px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-17.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 17px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-18 {
+  border-width: 18px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-18.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 18px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-19 {
+  border-width: 19px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-19.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 19px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-20 {
+  border-width: 20px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.outline-purple-20.hover-fill:hover {
+  background-color: #d198ff;
+  border-width: 20px;
+  border-color: #d198ff;
+  border-style: solid;
+}
+.cassiopeia .button.white {
+  background-color: #fdf8f5;
+  border: #fdf8f5 3px solid;
+  color: #ffffff;
+}
+.cassiopeia .button.white.hover-outline:hover {
+  background-color: #121212;
+  border: #fdf8f5 3px solid;
+}
+.cassiopeia .button.outline-white-1 {
+  border-width: 1px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-1.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 1px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-2 {
+  border-width: 2px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-2.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 2px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-3 {
+  border-width: 3px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-3.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 3px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-4 {
+  border-width: 4px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-4.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 4px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-5 {
+  border-width: 5px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-5.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 5px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-6 {
+  border-width: 6px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-6.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 6px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-7 {
+  border-width: 7px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-7.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 7px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-8 {
+  border-width: 8px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-8.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 8px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-9 {
+  border-width: 9px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-9.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 9px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-10 {
+  border-width: 10px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-10.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 10px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-11 {
+  border-width: 11px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-11.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 11px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-12 {
+  border-width: 12px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-12.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 12px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-13 {
+  border-width: 13px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-13.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 13px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-14 {
+  border-width: 14px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-14.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 14px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-15 {
+  border-width: 15px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-15.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 15px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-16 {
+  border-width: 16px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-16.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 16px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-17 {
+  border-width: 17px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-17.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 17px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-18 {
+  border-width: 18px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-18.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 18px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-19 {
+  border-width: 19px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-19.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 19px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-20 {
+  border-width: 20px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.outline-white-20.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 20px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.cassiopeia .button.hover-orange:hover {
+  background-color: #ffc39b;
+  border: #ffc39b 3px solid;
+}
+.cassiopeia .button.hover-yellow:hover {
+  background-color: #ffd030;
+  border: #ffd030 3px solid;
+}
+.cassiopeia .button.hover-blue:hover {
+  background-color: #1aa1ff;
+  border: #1aa1ff 3px solid;
+}
+.cassiopeia .button.hover-red:hover {
+  background-color: #ff6b57;
+  border: #ff6b57 3px solid;
+}
+.cassiopeia .button.hover-green:hover {
+  background-color: #00c796;
+  border: #00c796 3px solid;
+}
+.cassiopeia .button.hover-purple:hover {
+  background-color: #d198ff;
+  border: #d198ff 3px solid;
+}
+.cassiopeia .button.hover-white:hover {
+  background-color: #fdf8f5;
+  border: #fdf8f5 3px solid;
+}
+.cassiopeia .button.hover-dull:hover {
+  opacity: 80%;
+}
+.cassiopeia table tr.orange {
+  background-color: #ffc39b;
+}
+.cassiopeia table tr.yellow {
+  background-color: #ffd030;
+}
+.cassiopeia table tr.blue {
+  background-color: #1aa1ff;
+}
+.cassiopeia table tr.red {
+  background-color: #ff6b57;
+}
+.cassiopeia table tr.green {
+  background-color: #00c796;
+}
+.cassiopeia table tr.purple {
+  background-color: #d198ff;
+}
+.cassiopeia table tr.white {
+  background-color: #fdf8f5;
+}
+.cassiopeia table.hover-orange tr:hover {
+  background-color: #ffc39b;
+}
+.cassiopeia table.hover-yellow tr:hover {
+  background-color: #ffd030;
+}
+.cassiopeia table.hover-blue tr:hover {
+  background-color: #1aa1ff;
+}
+.cassiopeia table.hover-red tr:hover {
+  background-color: #ff6b57;
+}
+.cassiopeia table.hover-green tr:hover {
+  background-color: #00c796;
+}
+.cassiopeia table.hover-purple tr:hover {
+  background-color: #d198ff;
+}
+.cassiopeia table.hover-white tr:hover {
+  background-color: #fdf8f5;
+}
+.cassiopeia .alert.orange {
+  background-color: #ffc39b;
+  border: 1px solid #ffc39b;
+}
+.cassiopeia .alert.yellow {
+  background-color: #ffd030;
+  border: 1px solid #ffd030;
+}
+.cassiopeia .alert.blue {
+  background-color: #1aa1ff;
+  border: 1px solid #1aa1ff;
+}
+.cassiopeia .alert.red {
+  background-color: #ff6b57;
+  border: 1px solid #ff6b57;
+}
+.cassiopeia .alert.green {
+  background-color: #00c796;
+  border: 1px solid #00c796;
+}
+.cassiopeia .alert.purple {
+  background-color: #d198ff;
+  border: 1px solid #d198ff;
+}
+.cassiopeia .alert.white {
+  background-color: #fdf8f5;
+  border: 1px solid #fdf8f5;
+}
+
+.orion .dropdown .lime {
+  background-color: #e4ee90;
+}
+.orion .dropdown .orange {
+  background-color: #ffc973;
+}
+.orion .dropdown .red {
+  background-color: #ffa68b;
+}
+.orion .dropdown .blue {
+  background-color: #5ae0ef;
+}
+.orion .dropdown .purple {
+  background-color: #da90de;
+}
+.orion .dropdown .white {
+  background-color: #fdf8f5;
+}
+.orion .dropdown .dropdown-content.hover-lime a:hover {
+  background-color: #e4ee90;
+}
+.orion .dropdown .dropdown-content.hover-orange a:hover {
+  background-color: #ffc973;
+}
+.orion .dropdown .dropdown-content.hover-red a:hover {
+  background-color: #ffa68b;
+}
+.orion .dropdown .dropdown-content.hover-blue a:hover {
+  background-color: #5ae0ef;
+}
+.orion .dropdown .dropdown-content.hover-purple a:hover {
+  background-color: #da90de;
+}
+.orion .dropdown .dropdown-content.hover-white a:hover {
+  background-color: #fdf8f5;
+}
+.orion .button.lime {
+  background-color: #e4ee90;
+  border: #e4ee90 3px solid;
+  color: #ffffff;
+}
+.orion .button.lime.hover-outline:hover {
+  background-color: #121212;
+  border: #e4ee90 3px solid;
+}
+.orion .button.outline-lime-1 {
+  border-width: 1px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-1.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 1px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-2 {
+  border-width: 2px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-2.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 2px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-3 {
+  border-width: 3px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-3.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 3px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-4 {
+  border-width: 4px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-4.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 4px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-5 {
+  border-width: 5px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-5.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 5px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-6 {
+  border-width: 6px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-6.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 6px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-7 {
+  border-width: 7px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-7.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 7px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-8 {
+  border-width: 8px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-8.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 8px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-9 {
+  border-width: 9px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-9.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 9px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-10 {
+  border-width: 10px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-10.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 10px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-11 {
+  border-width: 11px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-11.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 11px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-12 {
+  border-width: 12px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-12.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 12px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-13 {
+  border-width: 13px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-13.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 13px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-14 {
+  border-width: 14px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-14.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 14px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-15 {
+  border-width: 15px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-15.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 15px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-16 {
+  border-width: 16px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-16.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 16px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-17 {
+  border-width: 17px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-17.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 17px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-18 {
+  border-width: 18px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-18.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 18px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-19 {
+  border-width: 19px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-19.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 19px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-20 {
+  border-width: 20px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.outline-lime-20.hover-fill:hover {
+  background-color: #e4ee90;
+  border-width: 20px;
+  border-color: #e4ee90;
+  border-style: solid;
+}
+.orion .button.orange {
+  background-color: #ffc973;
+  border: #ffc973 3px solid;
+  color: #ffffff;
+}
+.orion .button.orange.hover-outline:hover {
+  background-color: #121212;
+  border: #ffc973 3px solid;
+}
+.orion .button.outline-orange-1 {
+  border-width: 1px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-1.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 1px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-2 {
+  border-width: 2px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-2.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 2px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-3 {
+  border-width: 3px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-3.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 3px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-4 {
+  border-width: 4px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-4.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 4px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-5 {
+  border-width: 5px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-5.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 5px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-6 {
+  border-width: 6px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-6.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 6px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-7 {
+  border-width: 7px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-7.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 7px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-8 {
+  border-width: 8px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-8.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 8px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-9 {
+  border-width: 9px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-9.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 9px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-10 {
+  border-width: 10px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-10.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 10px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-11 {
+  border-width: 11px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-11.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 11px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-12 {
+  border-width: 12px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-12.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 12px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-13 {
+  border-width: 13px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-13.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 13px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-14 {
+  border-width: 14px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-14.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 14px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-15 {
+  border-width: 15px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-15.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 15px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-16 {
+  border-width: 16px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-16.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 16px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-17 {
+  border-width: 17px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-17.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 17px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-18 {
+  border-width: 18px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-18.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 18px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-19 {
+  border-width: 19px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-19.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 19px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-20 {
+  border-width: 20px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.outline-orange-20.hover-fill:hover {
+  background-color: #ffc973;
+  border-width: 20px;
+  border-color: #ffc973;
+  border-style: solid;
+}
+.orion .button.red {
+  background-color: #ffa68b;
+  border: #ffa68b 3px solid;
+  color: #ffffff;
+}
+.orion .button.red.hover-outline:hover {
+  background-color: #121212;
+  border: #ffa68b 3px solid;
+}
+.orion .button.outline-red-1 {
+  border-width: 1px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-1.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 1px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-2 {
+  border-width: 2px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-2.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 2px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-3 {
+  border-width: 3px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-3.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 3px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-4 {
+  border-width: 4px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-4.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 4px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-5 {
+  border-width: 5px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-5.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 5px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-6 {
+  border-width: 6px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-6.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 6px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-7 {
+  border-width: 7px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-7.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 7px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-8 {
+  border-width: 8px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-8.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 8px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-9 {
+  border-width: 9px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-9.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 9px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-10 {
+  border-width: 10px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-10.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 10px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-11 {
+  border-width: 11px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-11.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 11px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-12 {
+  border-width: 12px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-12.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 12px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-13 {
+  border-width: 13px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-13.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 13px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-14 {
+  border-width: 14px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-14.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 14px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-15 {
+  border-width: 15px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-15.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 15px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-16 {
+  border-width: 16px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-16.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 16px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-17 {
+  border-width: 17px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-17.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 17px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-18 {
+  border-width: 18px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-18.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 18px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-19 {
+  border-width: 19px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-19.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 19px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-20 {
+  border-width: 20px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.outline-red-20.hover-fill:hover {
+  background-color: #ffa68b;
+  border-width: 20px;
+  border-color: #ffa68b;
+  border-style: solid;
+}
+.orion .button.blue {
+  background-color: #5ae0ef;
+  border: #5ae0ef 3px solid;
+  color: #ffffff;
+}
+.orion .button.blue.hover-outline:hover {
+  background-color: #121212;
+  border: #5ae0ef 3px solid;
+}
+.orion .button.outline-blue-1 {
+  border-width: 1px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-1.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 1px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-2 {
+  border-width: 2px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-2.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 2px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-3 {
+  border-width: 3px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-3.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 3px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-4 {
+  border-width: 4px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-4.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 4px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-5 {
+  border-width: 5px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-5.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 5px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-6 {
+  border-width: 6px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-6.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 6px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-7 {
+  border-width: 7px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-7.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 7px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-8 {
+  border-width: 8px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-8.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 8px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-9 {
+  border-width: 9px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-9.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 9px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-10 {
+  border-width: 10px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-10.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 10px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-11 {
+  border-width: 11px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-11.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 11px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-12 {
+  border-width: 12px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-12.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 12px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-13 {
+  border-width: 13px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-13.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 13px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-14 {
+  border-width: 14px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-14.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 14px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-15 {
+  border-width: 15px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-15.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 15px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-16 {
+  border-width: 16px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-16.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 16px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-17 {
+  border-width: 17px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-17.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 17px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-18 {
+  border-width: 18px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-18.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 18px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-19 {
+  border-width: 19px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-19.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 19px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-20 {
+  border-width: 20px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.outline-blue-20.hover-fill:hover {
+  background-color: #5ae0ef;
+  border-width: 20px;
+  border-color: #5ae0ef;
+  border-style: solid;
+}
+.orion .button.purple {
+  background-color: #da90de;
+  border: #da90de 3px solid;
+  color: #ffffff;
+}
+.orion .button.purple.hover-outline:hover {
+  background-color: #121212;
+  border: #da90de 3px solid;
+}
+.orion .button.outline-purple-1 {
+  border-width: 1px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-1.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 1px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-2 {
+  border-width: 2px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-2.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 2px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-3 {
+  border-width: 3px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-3.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 3px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-4 {
+  border-width: 4px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-4.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 4px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-5 {
+  border-width: 5px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-5.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 5px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-6 {
+  border-width: 6px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-6.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 6px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-7 {
+  border-width: 7px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-7.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 7px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-8 {
+  border-width: 8px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-8.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 8px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-9 {
+  border-width: 9px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-9.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 9px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-10 {
+  border-width: 10px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-10.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 10px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-11 {
+  border-width: 11px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-11.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 11px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-12 {
+  border-width: 12px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-12.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 12px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-13 {
+  border-width: 13px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-13.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 13px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-14 {
+  border-width: 14px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-14.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 14px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-15 {
+  border-width: 15px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-15.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 15px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-16 {
+  border-width: 16px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-16.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 16px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-17 {
+  border-width: 17px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-17.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 17px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-18 {
+  border-width: 18px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-18.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 18px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-19 {
+  border-width: 19px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-19.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 19px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-20 {
+  border-width: 20px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.outline-purple-20.hover-fill:hover {
+  background-color: #da90de;
+  border-width: 20px;
+  border-color: #da90de;
+  border-style: solid;
+}
+.orion .button.white {
+  background-color: #fdf8f5;
+  border: #fdf8f5 3px solid;
+  color: #ffffff;
+}
+.orion .button.white.hover-outline:hover {
+  background-color: #121212;
+  border: #fdf8f5 3px solid;
+}
+.orion .button.outline-white-1 {
+  border-width: 1px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-1.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 1px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-2 {
+  border-width: 2px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-2.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 2px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-3 {
+  border-width: 3px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-3.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 3px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-4 {
+  border-width: 4px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-4.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 4px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-5 {
+  border-width: 5px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-5.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 5px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-6 {
+  border-width: 6px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-6.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 6px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-7 {
+  border-width: 7px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-7.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 7px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-8 {
+  border-width: 8px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-8.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 8px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-9 {
+  border-width: 9px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-9.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 9px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-10 {
+  border-width: 10px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-10.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 10px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-11 {
+  border-width: 11px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-11.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 11px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-12 {
+  border-width: 12px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-12.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 12px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-13 {
+  border-width: 13px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-13.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 13px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-14 {
+  border-width: 14px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-14.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 14px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-15 {
+  border-width: 15px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-15.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 15px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-16 {
+  border-width: 16px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-16.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 16px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-17 {
+  border-width: 17px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-17.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 17px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-18 {
+  border-width: 18px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-18.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 18px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-19 {
+  border-width: 19px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-19.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 19px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-20 {
+  border-width: 20px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.outline-white-20.hover-fill:hover {
+  background-color: #fdf8f5;
+  border-width: 20px;
+  border-color: #fdf8f5;
+  border-style: solid;
+}
+.orion .button.hover-lime:hover {
+  background-color: #e4ee90;
+  border: #e4ee90 3px solid;
+}
+.orion .button.hover-orange:hover {
+  background-color: #ffc973;
+  border: #ffc973 3px solid;
+}
+.orion .button.hover-red:hover {
+  background-color: #ffa68b;
+  border: #ffa68b 3px solid;
+}
+.orion .button.hover-blue:hover {
+  background-color: #5ae0ef;
+  border: #5ae0ef 3px solid;
+}
+.orion .button.hover-purple:hover {
+  background-color: #da90de;
+  border: #da90de 3px solid;
+}
+.orion .button.hover-white:hover {
+  background-color: #fdf8f5;
+  border: #fdf8f5 3px solid;
+}
+.orion .button.hover-dull:hover {
+  opacity: 80%;
+}
+.orion table tr.lime {
+  background-color: #e4ee90;
+}
+.orion table tr.orange {
+  background-color: #ffc973;
+}
+.orion table tr.red {
+  background-color: #ffa68b;
+}
+.orion table tr.blue {
+  background-color: #5ae0ef;
+}
+.orion table tr.purple {
+  background-color: #da90de;
+}
+.orion table tr.white {
+  background-color: #fdf8f5;
+}
+.orion table.hover-lime tr:hover {
+  background-color: #e4ee90;
+}
+.orion table.hover-orange tr:hover {
+  background-color: #ffc973;
+}
+.orion table.hover-red tr:hover {
+  background-color: #ffa68b;
+}
+.orion table.hover-blue tr:hover {
+  background-color: #5ae0ef;
+}
+.orion table.hover-purple tr:hover {
+  background-color: #da90de;
+}
+.orion table.hover-white tr:hover {
+  background-color: #fdf8f5;
+}
+.orion .alert.lime {
+  background-color: #e4ee90;
+  border: 1px solid #e4ee90;
+}
+.orion .alert.orange {
+  background-color: #ffc973;
+  border: 1px solid #ffc973;
+}
+.orion .alert.red {
+  background-color: #ffa68b;
+  border: 1px solid #ffa68b;
+}
+.orion .alert.blue {
+  background-color: #5ae0ef;
+  border: 1px solid #5ae0ef;
+}
+.orion .alert.purple {
+  background-color: #da90de;
+  border: 1px solid #da90de;
+}
+.orion .alert.white {
+  background-color: #fdf8f5;
+  border: 1px solid #fdf8f5;
+}

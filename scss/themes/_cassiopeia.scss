@@ -1,0 +1,113 @@
+$c-d-colours: (
+  "orange": $c-orange,
+  "yellow": $c-yellow,
+  "blue": $c-blue,
+  "red": $c-red,
+  "green": $c-green,
+  "purple": $c-purple,
+  "white": $bg-white
+);
+
+.cassiopeia {
+  .dropdown {
+    @each $key, $val in $c-d-colours {
+      .#{$key} {
+        background-color: $val;
+      }
+    }
+  
+    .dropdown-content {
+      @each $key, $val in $c-d-colours {
+        &.hover-#{$key} {
+          a {
+            &:hover {
+              background-color: $val;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    @each $key, $val in $c-d-colours {
+      &.#{$key} {
+        background-color: $val;
+        border: $val 3px solid;
+        color: #ffffff;
+  
+        @if($key == white) {
+          color: #111111;
+        }
+  
+        &.hover-outline {
+          &:hover {
+            background-color: #121212;
+            border: $val 3px solid;
+          }
+        }
+      }
+  
+      @for $ol from 1 through 20 {
+        &.outline-#{$key}-#{$ol} {
+          border-width: $ol + 0px;
+          border-color: $val;
+          border-style: solid;
+  
+          &.hover-fill {
+            &:hover {
+              background-color: $val;
+              border-width: $ol + 0px;
+              border-color: $val;
+              border-style: solid;
+            }
+          }
+        }
+      }
+  
+  
+    }
+  
+    @each $key, $val in $c-d-colours {
+      &.hover-#{$key} {
+        &:hover {
+          background-color: $val;
+          border: $val 3px solid;
+        }
+      }
+    }
+  
+    &.hover-dull {
+      &:hover {
+        opacity: 80%;
+      }
+    }
+  }
+
+  table {
+    tr {
+      @each $key, $val in $c-d-colours {
+        &.#{$key} {
+          background-color: $val;
+        }
+      }
+    }
+
+    @each $key, $val in $c-d-colours {
+      &.hover-#{$key} {
+        tr:hover {
+          background-color: $val;
+        }
+      }
+    }
+  }
+
+  .alert {
+    @each $key, $val in $c-d-colours {
+      &.#{$key} {
+        background-color: $val;
+        border: 1px solid $val;
+      }
+    }
+  }
+}

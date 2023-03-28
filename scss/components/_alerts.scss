@@ -1,0 +1,61 @@
+$bg-d-colours: (
+  "orange": $bg-orange,
+  "yellow": $bg-yellow,
+  "blue": $bg-turq,
+  "red": $bg-red,
+  "green": $bg-green,
+  "pink": $bg-pink,
+  "white": $bg-white,
+  "primary": $bg-orange,
+  "secondary": $bg-turq
+);
+
+.alert {
+  padding: 20px;
+  border: 1px solid $grey4;
+  color: white;
+  width: 100%;
+
+  @for $br from 1 through 100 {
+    &.border-radius-#{$br} {
+      border-radius: $br + 0px;
+    }
+  }
+//big dipper
+@each $key, $val in $bg-d-colours {
+    &.#{$key} {
+      background-color: $val;
+      border: 1px solid $val;
+    }
+  }
+
+  @for $margin from 1 through 100 {
+    &.margin-#{$margin} {
+      margin: $margin + 0px;
+    }
+  }
+
+  @for $marginleft from 1 through 100 {
+    &.margin-left-#{$marginleft} {
+      margin-left: $marginleft + 0px;
+    }
+  }
+
+  @for $marginright from 1 through 100 {
+    &.margin-right-#{$marginright} {
+      margin-right: $marginright + 0px;
+    }
+  }
+
+  @for $margintop from 1 through 100 {
+    &.margin-top-#{$margintop} {
+      margin-top: $margintop + 0px;
+    }
+  }
+
+  @for $marginbottom from 1 through 100 {
+    &.margin-bottom-#{$marginbottom} {
+      margin-bottom: $marginbottom + 0px;
+    }
+  }
+}

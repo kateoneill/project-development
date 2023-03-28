@@ -2,6 +2,15 @@
   max-height: 120px;
 }
 
+.theme-platform {
+  background-color: #515151;
+  padding: 10px 20px;
+}
+
+.theme-platform h6 {
+  font-size: 18px;
+}
+
 .nav-bar .cui-logo {
   max-height: 75px;
   width: auto;

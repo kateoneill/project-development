@@ -174,3 +174,11 @@ p.about-details {
   background-color: #ff8a89;
   padding: 20px;
 }
+
+h4.temp-head {
+  font-size: 40px;
+}
+
+h6.temp-head {
+  font-size: 30px;
+}

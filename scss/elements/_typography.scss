@@ -201,6 +201,12 @@ td {
       padding-bottom: $paddingbottom + 0px;
     }
   }
-
+  @for $opac from 1 through 100 {
+    @if $opac % 5 == 0 {
+      &.opacity-#{$opac} {
+        opacity: 0% + $opac;
+      }
+    }
+  }
 }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alerts Styling</title>
+    <title>About Constellation UI</title>
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="../docsassets/docs.css" />
     <script src="index.js"></script>
@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <div class="xl-container display-flex">
+  <div class="xl-container">
     <div class="row gutter-12">
       <div class="xs-8-wide md-2-wide">
         <div class="sidebar">
@@ -101,36 +101,51 @@
       </div>
       <div class="xs-8-wide md-6-wide">
         <div class="main-content">
-          <h4 class="subheading Roboto grey5">Components</h4>
-          <h1 class="Title Roboto">Alerts</h1>
-          <p class="Roboto grey3"> 
-            Sometimes a message needs to stand out from the crowd, Alerts provide that capability.
-          </p>
-          <div class="platform elevation-7">
-            <h3 class="Roboto grey2">Sample Alert Styling</h3>
-            <div class="row">
-              <div class="alert">This is a default alert</div>
-              <div class="alert blue margin-top-20">This is a blue alert with margin top</div>
-              <div class="alert orange border-radius-10 margin-top-20 margin-left-50 margin-right-50">This is an orange alert with margin top, left and right with border radius</div>
-              </div>
-              <div class="platform elevation-5" style="margin-bottom:20px;">
-                <h5 class="grey10 Roboto"> Sample Code </h5>
-                <code>
-                  &lt;div class="row gutter-12"&gt; </br>
-                    &lt;div class="alert"&gt; </br>
-                      &lt;This is a default alert</br>
-                    &lt;/div&gt;</br>
-                    &lt;div class="alert blue margin-top-20"&gt; </br>
-                      &lt;This is a blue alert with margin top</br>
-                    &lt;/div&gt;</br>
-                    &lt;div class="alert orange border-radius-10 margin-top-20 margin-left-50 margin-right-50"&gt; </br>
-                      &lt;This is an orange alert with margin top, left and right with border radius</br>
-                    &lt;/div&gt;</br>
-                    &lt;/div&gt;
-                </code>
-              </div>
-              <p class="Roboto grey2"> Ability to change the colour to any in the default big dipper theme by adding classes (orange, yellow, blue, red, green, pink, white). Ability to control margin all around the element as well as border radius</p>
-            </div>
+          <h4 class="subheading Roboto grey5">Getting Started</h4>
+          <h1 class="Roboto white">Install</h1>
+          <div class="platform elevation-5">
+            <h2 class="Roboto grey9">NPM install</h2>
+            <p class="Roboto black">
+              Constellation UI is usable by the node package manager. Run npm init on your folder and then:
+            </p>
+            <code>
+                > npm i constellation-ui
+            </code>
+            <p class="Roboto black">
+              In HTML files add the following code in the head tags
+            </p>
+            <code>
+              &lt;link rel="stylesheet" type="text/css" href="node_modules/constellation-ui/css/index.css"&gt;
+            </code>
+            <p class="Roboto black">
+              If you want to utilise the dropdown feature, you must add the following link also
+            </p>
+            <code>
+              &lt;script src="node_modules/constellation-ui/index.js"&gt;&lt;/script&gt;
+            </code>
+          </div>
+
+          <div class="platform elevation-5">
+            <h2 class="Roboto grey9">Install files</h2>
+            <p class="Roboto black">
+              Constellation UI is usable via downloaded file also:
+            </p>
+            <h3 class="Roboto grey9">Plain CSS</h3>
+            <a href="../docsassets/cui-plain.css" class="button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded file in your project and import it as normal
+            </p>
+
+            <h3 class="Roboto grey9">Minified CSS</h3>
+            <a href="../docsassets/cui-minified.css" class="button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded file in your project and import it as normal
+            </p>
+
+            <p class="Roboto black">
+              If you want to use the dropdown feature in Constellation UI, you need to also download this JS file and import it into the relevant files.
+            </p>
+            <a href="../docsassets/dropdown.js" class="button orange hover-outline" download>Download JS FIle</a>
           </div>
         </div>
       </div>

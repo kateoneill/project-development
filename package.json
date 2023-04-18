@@ -2,7 +2,7 @@
   "name": "constellation-ui",
   "version": "1.0.0",
   "description": "A dark theme CSS framework",
-  "main": "index.js",
+  "main": "css/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

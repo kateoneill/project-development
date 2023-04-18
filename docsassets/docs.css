@@ -136,3 +136,41 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+p.about-details {
+  font-size: 30px;
+}
+
+.about-img {
+  height:600px;
+  background-image: url(../docsassets/moon-blue.jpg);
+}
+
+.hover-link:hover{
+  color: #ff6c22;
+}
+
+.contain-docs {
+  background-color: #009dc3;
+  padding: 20px;
+}
+
+.org-bckg {
+ background-color: #ff6c22;
+ padding: 20px;
+}
+
+.blue-bckg {
+  background-color: #009dc3;
+  padding: 20px;
+}
+
+.green-bckg {
+  background-color: #00c46e;
+  padding: 20px;
+}
+
+.purp-bckg {
+  background-color: #ff8a89;
+  padding: 20px;
+}

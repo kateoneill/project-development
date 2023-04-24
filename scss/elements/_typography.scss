@@ -1,6 +1,6 @@
 $fonts: Lato, Roboto, RobotoSlab, Merriweather;
 $transform: uppercase, lowercase, capitalize;
-$line-decoration: overline, underline, line-through;
+$line-decoration: overline, underline, line-through, none;
 $line-style: solid, double, dotted, dashed;
 $text-align: left, right, center;
 
@@ -201,6 +201,12 @@ td {
       padding-bottom: $paddingbottom + 0px;
     }
   }
-
+  @for $opac from 1 through 100 {
+    @if $opac % 5 == 0 {
+      &.opacity-#{$opac} {
+        opacity: 0% + $opac;
+      }
+    }
+  }
 }
 

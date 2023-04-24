@@ -3,30 +3,100 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-GRID</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/x-icon" href="docsassets/cui-logo2.svg">
+    <title>Grid Styling | Constellation UI</title>
+    <link rel="stylesheet" type="text/css" href="docsassets/cui-minified.css" />
+    <link rel="stylesheet" type="text/css" href="docsassets/docs.css" />
     <script src="index.js"></script>
 </head>
 <body>
+  <div class="nav-bar">
+    <div class="xl-container">
+      <div class="row">
+        <div class="xs-3-wide">
+          <a class="line-decoration-none" href="index.html">
+            <img class="cui-logo" src="docsassets/cui-logo2.svg">
+          </a>
+        </div>
+        <div class="xs-5-wide">
+          <ul class="Roboto horizontal">
+            <li><a href="install.html" class="install">Install</a></li>
+            <li><a href="docs.html" class="docs">Docs</a></li>
+            <li><a href="https://github.com/kateoneill/project-development"><img class="github-logo" src="docsassets/github-logo.jpeg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="xl-container display-flex">
     <div class="xs-8-wide md-2-wide">
       <div class="sidebar">
-        <ul class="list-style-none">
+        <ul class="list-style-none line-height-200">
           <li>
-            <a href="about.html"> About </a>
+            <a class="Roboto grey4 line-decoration-none" href="about.html"> About </a>
           </li>
-          <li>
-            <a href="getting-started.html"> Getting Started</a>
+          <li class="Roboto grey4">
+            Getting Started
+            <ul class="line-height-200">
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="install.html">Install</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="themes.html">Themes</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="templates.html">Templates</a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="layout.html"> Getting Started</a>
+          <li class="Roboto grey4">
+            Layout
+            <ul class="line-height-200">
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="grid.html">Grid</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="containers.html">Containers</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="platform.html">Platform</a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="elements.html"> Getting Started</a>
+          <li class="Roboto grey4">
+            Elements
+            <ul class="line-height-200">
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="typography.html">Typography</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="images.html">Images</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="backgroundimages.html">Background Images</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="lists.html">Lists</a>
+              </li>
+            </ul>
           </li>
-          <li>
-            <a href="components.html"> Getting Started</a>
+          <li class="Roboto grey4">
+            Components
+            <ul class="line-height-200">
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="alerts.html">Alerts</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="cards.html">Cards</a>
+              </li>
+              <li>
+                <a class="Roboto grey4 line-decoration-none hover-link" href="dropdown.html">Dropdown</a>
+              </li>
+            </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -42,10 +112,10 @@
         <div class="platform elevation-7">
           <h3 class="Roboto grey2">Sample Grid</h3>
           <div class="row">
-            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px">.xs-4-wide .md-2-wide</div>
-            <div class="sample-grid-section xs-4-wide  md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
-            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
-            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> .xs-4-wide .md-2-wide</div>
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"><p class="Roboto white">.xs-4-wide .md-2-wide</p></div>
+            <div class="sample-grid-section xs-4-wide  md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"><p class="Roboto white">.xs-4-wide .md-2-wide</p></div>
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> <p class="Roboto white">.xs-4-wide .md-2-wide</p></div>
+            <div class="sample-grid-section xs-4-wide md-2-wide" style="background-color: rgb(53, 73, 50); padding:10px"> <p class="Roboto white">.xs-4-wide .md-2-wide</p></div>
           </div>
           <div class="platform elevation-5">
             <h5 class="grey10 Roboto"> Sample Code </h5>
@@ -56,12 +126,13 @@
                   &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
                   &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt;<br>
                   &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt;<br>
+                &lt;/div&gt;</br>
                 &lt;/div&gt;
             </code>
           </div>
         </div>
         <div class="row gutter-24" style="padding-top:20px">
-          <div class="xs-12-wide md-5-wide">
+          <div class="xs-8-wide md-5-wide">
             <p class="Roboto grey3">
               Constellation UI is fully responsive. There are a variety of classes that allow as much customisability as possible. Constellation UI is
               an 8-col grid system. A row has 8 columns in a row. How the user chooses to organise those is completely up to them. </p>
@@ -72,27 +143,28 @@
               mobile devices but 50-50 on laptop size simply add the class xs-12-wide md-4-wide
             </p>
           </div>
-          <div class="xs-12-wide md-3-wide">
+          <div class="xs-8-wide md-3-wide">
             <img src="grid.png" alt="Grid system" class="fit-height">
           </div>
         </div>
         <div class="row">
-          <div class="xs-12-wide">
+          <div class="xs-8-wide">
             <p class="Roboto grey3">
               For maximum customisability there are classes available to add a variety of gutter widths: 0, 12px and 24px. The default gutter width is 0px. To add gutter add a declaration to the row as follows:
               <div class="platform elevation-7">
                 <h3 class="Roboto grey2">Sample Grid</h3>
                 <div class="row gutter-12">
-                  <div class="sample-grid-section xs-12-wide md-6-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Lato grey3">.xs-12-wide .md-6-wide</h5></div></div>
-                  <div class="sample-grid-section xs-12-wide  md-2-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Lato grey3">.xs-12-wide .md-2-wide</h5></div></div>
+                  <div class="sample-grid-section xs-8-wide md-6-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Roboto grey3">.xs-12-wide .md-6-wide</h5></div></div>
+                  <div class="sample-grid-section xs-8-wide  md-2-wide" > <div class="testing" style="background-color: rgb(53, 73, 50); padding:10px"><h5 class="Roboto grey3">.xs-12-wide .md-2-wide</h5></div></div>
                 </div>
                 <div class="platform elevation-5">
                   <h5 class="grey10 Roboto"> Sample Code </h5>
                   <code>
-                    &lt;div class="container-xl"&gt; </br>
+                    &lt;div class="xl-container"&gt; </br>
                       &lt;div class="row gutter-12"&gt; </br>
-                        &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
-                        &lt;div class="xs-4-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                        &lt;div class="xs-8-wide md-6-wide"&gt; &lt;/div&gt; </br>
+                        &lt;div class="xs-8-wide md-2-wide"&gt; &lt;/div&gt; </br>
+                      &lt;/div&gt;</br>
                       &lt;/div&gt;
                   </code>
                 </div>
@@ -101,8 +173,32 @@
           </div>
         </div>
         <div class="row">
-          <div class="xs-12-wide">
-            <h2 class="grey4">add things for the order classes here </h2>
+          <div class="xs-8-wide">
+            <div class="platform elevation-7">
+              <h5 class="grey10 Roboto"> Order classes</h5>
+              <div class="row">
+                <div class="xs-4-wide md-2-wide md-order-3 xs-order-2 org-bckg"> <p class="Roboto white">xs-4-wide md-2-wide md-order-3 xs-order-2</p></div>
+                <div class="xs-4-wide md-2-wide md-order-1 xs-order-3 purp-bckg"> <p class="Roboto white">xs-4-wide md-2-wide md-order-1 xs-order-3</p></div>
+                <div class="xs-4-wide md-2-wide order-1 md-order-4 xs-order-4 blue-bckg"><p class="Roboto white"> xs-4-wide md-2-wide order-1 md-order-4 xs-order-4</p></div>
+                <div class="xs-4-wide md-2-wide order-3 md-order-3 xs-order-1 green-bckg"> <p class="Roboto white">xs-4-wide md-2-wide order-3 md-order-3 xs-order-1</p></div>
+              </div>
+              <div class="platform elevation-5">
+                <h5 class="grey10 Roboto"> Sample code</h5>
+                <code>
+                  &lt;div class="container-xl"&gt; </br>
+                    &lt;div class="row"&gt; </br>
+                      &lt;div class="xs-4-wide md-2-wide md-order-3 xs-order-2"&gt; &lt;/div&gt; </br>
+                      &lt;div class="xs-4-wide md-2-wide md-order-1 xs-order-3"&gt; &lt;/div&gt; </br>
+                      &lt;div class="xs-4-wide md-2-wide md-order-4 xs-order-4"&gt; &lt;/div&gt;<br>
+                      &lt;div class="xs-4-wide md-2-wide md-order-3 xs-order-1""&gt; &lt;/div&gt;<br>
+                    &lt;/div&gt;</br>
+                    &lt;/div&gt;
+                </code>
+              </div>
+              <p class="Roboto grey3">
+                Order classes allow you reorganise all tiles and rows on all sizes by adding the class for whatever size breakpoint you want followed by where in the order you want it to fall.
+              </p>
+            </div>
           </div>
         </div>
       </div>

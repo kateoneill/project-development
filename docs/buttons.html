@@ -3,31 +3,101 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-GRID</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/x-icon" href="docsassets/cui-logo2.svg">
+    <title>Buttons Styling | Constellation UI</title>
+    <link rel="stylesheet" type="text/css" href="docsassets/cui-minified.css" />
+    <link rel="stylesheet" type="text/css" href="docsassets/docs.css" />
     <script src="index.js"></script>
 </head>
 <body>
+  <div class="nav-bar">
+    <div class="xl-container">
+      <div class="row">
+        <div class="xs-3-wide">
+          <a class="line-decoration-none" href="index.html">
+            <img class="cui-logo" src="docsassets/cui-logo2.svg">
+          </a>
+        </div>
+        <div class="xs-5-wide">
+          <ul class="Roboto horizontal">
+            <li><a href="install.html" class="install">Install</a></li>
+            <li><a href="docs.html" class="docs">Docs</a></li>
+            <li><a href="https://github.com/kateoneill/project-development"><img class="github-logo" src="docsassets/github-logo.jpeg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="xl-container display-flex">
     <div class="row gutter-12">
       <div class="xs-8-wide md-2-wide">
         <div class="sidebar">
-          <ul class="list-style-none">
+          <ul class="list-style-none line-height-200">
             <li>
-              <a href="about.html"> About </a>
+              <a class="Roboto grey4 line-decoration-none" href="about.html"> About </a>
             </li>
-            <li>
-              <a href="getting-started.html"> Getting Started</a>
+            <li class="Roboto grey4">
+              Getting Started
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="install.html">Install</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="themes.html">Themes</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="templates.html">Templates</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="layout.html"> Getting Started</a>
+            <li class="Roboto grey4">
+              Layout
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="grid.html">Grid</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="containers.html">Containers</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="platform.html">Platform</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="elements.html"> Getting Started</a>
+            <li class="Roboto grey4">
+              Elements
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="typography.html">Typography</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="images.html">Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="backgroundimages.html">Background Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="lists.html">Lists</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a href="components.html"> Getting Started</a>
+            <li class="Roboto grey4">
+              Components
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="alerts.html">Alerts</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="cards.html">Cards</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="dropdown.html">Dropdown</a>
+                </li>
+              </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -47,30 +117,30 @@
             </p>
             <div class="row gutter-12">
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 orange"> .button padding-10 orange</a>
+                <a href="#" class="Roboto button padding-10 orange"> .button padding-10 orange</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-20 yellow"> .button padding-10 yellow</a>
+                <a href="#" class="Roboto button padding-20 yellow" style="color: black;"> .button padding-10 yellow</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-left-10 padding right-10 padding-top-5 padding-bottom-5 blue"> .button padding-left-10 padding right-10 padding-top-5 padding-bottom-5  blue</a>
+                <a href="#" class="Roboto button padding-left-10 padding right-10 padding-top-5 padding-bottom-5 blue"> .button padding-left-10 padding right-10 padding-top-5 padding-bottom-5  blue</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-20 border-radius-10 red"> .button border-radius-10 padding-20 red</a>
+                <a href="#" class="Roboto button padding-20 border-radius-10 red"> .button border-radius-10 padding-20 red</a>
               </div>
             </div>
             <div class="row gutter-12">
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 width-50 green"> .button padding-left-30 padding-right-10 width-50 green</a>
+                <a href="#" class="Roboto button padding-10 width-50 green"> .button padding-left-30 padding-right-10 width-50 green</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 border-radius-5 pink"> .button padding-10 border-radius-5 pink</a>
+                <a href="#" class="Roboto button padding-10 border-radius-5 pink"> .button padding-10 border-radius-5 pink</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 white"> .button padding-10 white</a>
+                <a href="#" class="Roboto button padding-10 white" style="color: black;"> .button padding-10 white</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 outline-orange-5"> .button padding-10 outline-orange-5</a>
+                <a href="#" class="Roboto button padding-10 outline-orange-5"> .button padding-10 outline-orange-5</a>
               </div>
             </div>
             <div class="platform elevation-5">
@@ -78,15 +148,16 @@
               <code>
                 &lt;div class="container-xl"&gt; </br>
                   &lt;div class="row gutter-12"&gt; </br>
-                    &lt;a href="#" class="button padding-10 orange"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-20 yellow"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-left-10 padding right-10 padding-top-5 padding-bottom-5 blue"&gt; &lt;/a&gt;<br>
-                    &lt;a href="#" class="button padding-20 border-radius-10 red"&gt; &lt;/a&gt;<br>
+                    &lt;a href="#" class="Roboto button padding-10 orange"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-20 yellow"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-left-10 padding right-10 padding-top-5 padding-bottom-5 blue"&gt; &lt;/a&gt;<br>
+                    &lt;a href="#" class="Roboto button padding-20 border-radius-10 red"&gt; &lt;/a&gt;<br>
                   &lt;/div&gt;</br>
                   &lt;div class="row gutter-12"&gt; </br>
-                    &lt;a href="#" class="button padding-10 width-50 green"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-10 white"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-10 outline-orange-5"&gt; &lt;/a&gt;<br>
+                    &lt;a href="#" class="Roboto button padding-10 width-50 green"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-10 border-radius-5 pink"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-10 white"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-10 outline-orange-5"&gt; &lt;/a&gt;<br>
                   &lt;/div&gt;</br>
                 &lt;/div&gt;
               </code>
@@ -122,16 +193,16 @@
             </p>
             <div class="row gutter-12">
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 orange hover-outline"> .button padding-10 orange hover-outline</a>
+                <a href="#" class="Roboto button padding-10 orange hover-outline"> .button padding-10 orange hover-outline</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 border-radius-10 yellow hover-blue"> .button padding-10 border-radius-10 yellow hover-blue</a>
+                <a href="#" class="Roboto button padding-10 border-radius-10 yellow hover-blue" style="color: black;"> .button padding-10 border-radius-10 yellow hover-blue</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-10 outline-blue-5 hover-fill"> .button padding-10 outline-blue-5 hover-fill</a>
+                <a href="#" class="Roboto button padding-10 outline-blue-5 hover-fill"> .button padding-10 outline-blue-5 hover-fill</a>
               </div>
               <div class="xs-4-wide md-2-wide">
-                <a href="#" class="button padding-20 border-radius-10 outline-pink-10 hover-fill"> .button padding-20 border-radius-10 outline-pink-10 hover-fill</a>
+                <a href="#" class="Roboto button padding-20 border-radius-10 outline-pink-10 hover-fill"> .button padding-20 border-radius-10 outline-pink-10 hover-fill</a>
               </div>
             </div>
             <div class="platform elevation-5">
@@ -139,10 +210,10 @@
               <code>
                 &lt;div class="container-xl"&gt; </br>
                   &lt;div class="row gutter-12"&gt; </br>
-                    &lt;a href="#" class="button padding-10 orange hover-outline"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-10 border-radius-10 yellow hover-blue"&gt; &lt;/a&gt; </br>
-                    &lt;a href="#" class="button padding-10 outline-blue-5 hover-fill"&gt; &lt;/a&gt;<br>
-                    &lt;a href="#" class="button padding-20 border-radius-10 outline-pink-10 hover-fill"&gt; &lt;/a&gt;<br>
+                    &lt;a href="#" class="Roboto button padding-10 orange hover-outline"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-10 border-radius-10 yellow hover-blue"&gt; &lt;/a&gt; </br>
+                    &lt;a href="#" class="Roboto button padding-10 outline-blue-5 hover-fill"&gt; &lt;/a&gt;<br>
+                    &lt;a href="#" class="Roboto button padding-20 border-radius-10 outline-pink-10 hover-fill"&gt; &lt;/a&gt;<br>
                   &lt;/div&gt;</br>
                 &lt;/div&gt;
               </code>

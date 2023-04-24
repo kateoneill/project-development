@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/x-icon" href="docsassets/cui-logo2.svg">
+    <title>Table Styling | Constellation UI</title>
+    <link rel="stylesheet" type="text/css" href="docsassets/cui-minified.css" />
+    <link rel="stylesheet" type="text/css" href="docsassets/docs.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="xl-container">
+      <div class="row">
+        <div class="xs-3-wide">
+          <a class="line-decoration-none" href="index.html">
+            <img class="cui-logo" src="docsassets/cui-logo2.svg">
+          </a>
+        </div>
+        <div class="xs-5-wide">
+          <ul class="Roboto horizontal">
+            <li><a href="install.html" class="install">Install</a></li>
+            <li><a href="docs.html" class="docs">Docs</a></li>
+            <li><a href="https://github.com/kateoneill/project-development"><img class="github-logo" src="docsassets/github-logo.jpeg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="xl-container display-flex">
+    <div class="row gutter-12">
+      <div class="xs-8-wide md-2-wide">
+        <div class="sidebar">
+          <ul class="list-style-none line-height-200">
+            <li>
+              <a class="Roboto grey4 line-decoration-none" href="about.html"> About </a>
+            </li>
+            <li class="Roboto grey4">
+              Getting Started
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="install.html">Install</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="themes.html">Themes</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="templates.html">Templates</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Layout
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="grid.html">Grid</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="containers.html">Containers</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="platform.html">Platform</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Elements
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="typography.html">Typography</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="images.html">Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="backgroundimages.html">Background Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="lists.html">Lists</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Components
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="alerts.html">Alerts</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="cards.html">Cards</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="dropdown.html">Dropdown</a>
+                </li>
+              </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="xs-8-wide md-6-wide">
+        <div class="main-content">
+          <h4 class="subheading Roboto grey5">Elements</h4>
+          <h1 class="Title Roboto">Tables</h1>
+          <p class="Roboto grey3"> 
+            To display organised data, why not choose a table.
+          </p>
+          <div class="platform elevation-7">
+            <h3 class="Roboto grey2">Sample Table Styling</h3>
+            <h2 class="Lato">Simplest table</h2>
+              <table class="border-2 border-collapse padding-20 width-100" style="color:white;">
+                  <tr class="orange">
+                      <th> Heading 1</th>
+                      <th> Heading 2</th>
+                      <th> Heading 3</th>
+                  </tr>
+                  <tr>
+                      <td> Info 1</td>
+                      <td> Info 2</td>
+                      <td> Info 3</td>
+                  </tr>
+              </table>
+              <div class="platform elevation-5" style="margin-bottom:20px;">
+                <h5 class="grey10 Roboto"> Sample Code </h5>
+                <code>
+                  &lt;table class="border-2 border-collapse padding-20" style="color:white;"&gt;</br>
+                  &lt;tr class="orange"&gt;</br> 
+                  &lt;th&gt; Heading 1&lt;/th &gt;</br> 
+                  &lt;th&gt; Heading 2&lt;/th &gt;</br>
+                  &lt;th&gt; Heading 3&lt;/th &gt;</br>
+                  &lt;/tr&gt;</br>
+                  &lt;tr&gt;</br>
+                  &lt;td&gt; Info 1&lt;/td &gt;</br>
+                  &lt;td&gt; Info 2&lt;/td &gt;</br>
+                  &lt;td&gt; Info 3&lt;/td &gt;</br>
+                  &lt;/tr&gt;</br>
+                  &lt;/table&gt;</br>
+                </code>
+              </div>
+              <p class="Roboto grey2"> The table component offers an abundance of customisation, alter the width or any row to use a themes colour or grey variation. 
+                Adjust padding on entire table or individual cell. Want to get rid of the border on one cell put in eiher of the following classes: border-right-{value}, border-left-{value}, border-top-{value}
+                or border-bottom-{value}. Include these on any th or td elements for full customisation
+              </p>
+            </div>
+
+            <div class="platform elevation-7">
+              <h3 class="Roboto grey2">Sample Table Styling</h3>
+              <h2 class="Lato">Hoverable striped table</h2>
+                <table class="border-collapse padding-20 hover-blue striped border-bottom-4 border-left-4 border-right-4 border-top-4 width-50" style="color:white;">
+                    <tr class="grey-4">
+                        <th> Heading 1</th>
+                        <th> Heading 2</th>
+                        <th> Heading 3</th>
+                    </tr>
+                    <tr>
+                        <td> Info 1</td>
+                        <td> Info 2</td>
+                        <td> Info 3</td>
+                    </tr>
+                    <tr>
+                      <td> Info 1</td>
+                      <td> Info 2</td>
+                      <td> Info 3</td>
+                  </tr>
+                </table>
+                <div class="platform elevation-5" style="margin-bottom:20px;">
+                  <h5 class="grey10 Roboto"> Sample Code </h5>
+                  <code>
+                    &lt;table class="border-collapse padding-20 hover-blue striped border-bottom-4 border-left-4 border-right-4 border-top-4 width-50"&gt;</br>
+                    &lt;tr class="grey-4"&gt;</br> 
+                    &lt;th&gt; Heading 1&lt;/th &gt;</br> 
+                    &lt;th&gt; Heading 2&lt;/th &gt;</br>
+                    &lt;th&gt; Heading 3&lt;/th &gt;</br>
+                    &lt;/tr&gt;</br>
+                    &lt;tr&gt;</br>
+                    &lt;td&gt; Info 1&lt;/td &gt;</br>
+                    &lt;td&gt; Info 2&lt;/td &gt;</br>
+                    &lt;td&gt; Info 3&lt;/td &gt;</br>
+                    &lt;/tr&gt;</br>
+                    &lt;tr&gt;</br>
+                    &lt;td&gt; Info 1&lt;/td &gt;</br>
+                    &lt;td&gt; Info 2&lt;/td &gt;</br>
+                    &lt;td&gt; Info 3&lt;/td &gt;</br>
+                    &lt;/tr&gt;</br>
+                    &lt;/table&gt;</br>
+                  </code>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

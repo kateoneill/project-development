@@ -22787,6 +22787,20 @@ li.line-decoration-line-through,
 td.line-decoration-line-through {
   text-decoration: line-through;
 }
+h1.line-decoration-none,
+h2.line-decoration-none,
+h3.line-decoration-none,
+h4.line-decoration-none,
+h5.line-decoration-none,
+h6.line-decoration-none,
+p.line-decoration-none,
+a.line-decoration-none,
+ol.line-decoration-none,
+ul.line-decoration-none,
+li.line-decoration-none,
+td.line-decoration-none {
+  text-decoration: none;
+}
 h1.line-style-solid,
 h2.line-style-solid,
 h3.line-style-solid,
@@ -37584,6 +37598,286 @@ ul.padding-bottom-100,
 li.padding-bottom-100,
 td.padding-bottom-100 {
   padding-bottom: 100px;
+}
+h1.opacity-5,
+h2.opacity-5,
+h3.opacity-5,
+h4.opacity-5,
+h5.opacity-5,
+h6.opacity-5,
+p.opacity-5,
+a.opacity-5,
+ol.opacity-5,
+ul.opacity-5,
+li.opacity-5,
+td.opacity-5 {
+  opacity: 5%;
+}
+h1.opacity-10,
+h2.opacity-10,
+h3.opacity-10,
+h4.opacity-10,
+h5.opacity-10,
+h6.opacity-10,
+p.opacity-10,
+a.opacity-10,
+ol.opacity-10,
+ul.opacity-10,
+li.opacity-10,
+td.opacity-10 {
+  opacity: 10%;
+}
+h1.opacity-15,
+h2.opacity-15,
+h3.opacity-15,
+h4.opacity-15,
+h5.opacity-15,
+h6.opacity-15,
+p.opacity-15,
+a.opacity-15,
+ol.opacity-15,
+ul.opacity-15,
+li.opacity-15,
+td.opacity-15 {
+  opacity: 15%;
+}
+h1.opacity-20,
+h2.opacity-20,
+h3.opacity-20,
+h4.opacity-20,
+h5.opacity-20,
+h6.opacity-20,
+p.opacity-20,
+a.opacity-20,
+ol.opacity-20,
+ul.opacity-20,
+li.opacity-20,
+td.opacity-20 {
+  opacity: 20%;
+}
+h1.opacity-25,
+h2.opacity-25,
+h3.opacity-25,
+h4.opacity-25,
+h5.opacity-25,
+h6.opacity-25,
+p.opacity-25,
+a.opacity-25,
+ol.opacity-25,
+ul.opacity-25,
+li.opacity-25,
+td.opacity-25 {
+  opacity: 25%;
+}
+h1.opacity-30,
+h2.opacity-30,
+h3.opacity-30,
+h4.opacity-30,
+h5.opacity-30,
+h6.opacity-30,
+p.opacity-30,
+a.opacity-30,
+ol.opacity-30,
+ul.opacity-30,
+li.opacity-30,
+td.opacity-30 {
+  opacity: 30%;
+}
+h1.opacity-35,
+h2.opacity-35,
+h3.opacity-35,
+h4.opacity-35,
+h5.opacity-35,
+h6.opacity-35,
+p.opacity-35,
+a.opacity-35,
+ol.opacity-35,
+ul.opacity-35,
+li.opacity-35,
+td.opacity-35 {
+  opacity: 35%;
+}
+h1.opacity-40,
+h2.opacity-40,
+h3.opacity-40,
+h4.opacity-40,
+h5.opacity-40,
+h6.opacity-40,
+p.opacity-40,
+a.opacity-40,
+ol.opacity-40,
+ul.opacity-40,
+li.opacity-40,
+td.opacity-40 {
+  opacity: 40%;
+}
+h1.opacity-45,
+h2.opacity-45,
+h3.opacity-45,
+h4.opacity-45,
+h5.opacity-45,
+h6.opacity-45,
+p.opacity-45,
+a.opacity-45,
+ol.opacity-45,
+ul.opacity-45,
+li.opacity-45,
+td.opacity-45 {
+  opacity: 45%;
+}
+h1.opacity-50,
+h2.opacity-50,
+h3.opacity-50,
+h4.opacity-50,
+h5.opacity-50,
+h6.opacity-50,
+p.opacity-50,
+a.opacity-50,
+ol.opacity-50,
+ul.opacity-50,
+li.opacity-50,
+td.opacity-50 {
+  opacity: 50%;
+}
+h1.opacity-55,
+h2.opacity-55,
+h3.opacity-55,
+h4.opacity-55,
+h5.opacity-55,
+h6.opacity-55,
+p.opacity-55,
+a.opacity-55,
+ol.opacity-55,
+ul.opacity-55,
+li.opacity-55,
+td.opacity-55 {
+  opacity: 55%;
+}
+h1.opacity-60,
+h2.opacity-60,
+h3.opacity-60,
+h4.opacity-60,
+h5.opacity-60,
+h6.opacity-60,
+p.opacity-60,
+a.opacity-60,
+ol.opacity-60,
+ul.opacity-60,
+li.opacity-60,
+td.opacity-60 {
+  opacity: 60%;
+}
+h1.opacity-65,
+h2.opacity-65,
+h3.opacity-65,
+h4.opacity-65,
+h5.opacity-65,
+h6.opacity-65,
+p.opacity-65,
+a.opacity-65,
+ol.opacity-65,
+ul.opacity-65,
+li.opacity-65,
+td.opacity-65 {
+  opacity: 65%;
+}
+h1.opacity-70,
+h2.opacity-70,
+h3.opacity-70,
+h4.opacity-70,
+h5.opacity-70,
+h6.opacity-70,
+p.opacity-70,
+a.opacity-70,
+ol.opacity-70,
+ul.opacity-70,
+li.opacity-70,
+td.opacity-70 {
+  opacity: 70%;
+}
+h1.opacity-75,
+h2.opacity-75,
+h3.opacity-75,
+h4.opacity-75,
+h5.opacity-75,
+h6.opacity-75,
+p.opacity-75,
+a.opacity-75,
+ol.opacity-75,
+ul.opacity-75,
+li.opacity-75,
+td.opacity-75 {
+  opacity: 75%;
+}
+h1.opacity-80,
+h2.opacity-80,
+h3.opacity-80,
+h4.opacity-80,
+h5.opacity-80,
+h6.opacity-80,
+p.opacity-80,
+a.opacity-80,
+ol.opacity-80,
+ul.opacity-80,
+li.opacity-80,
+td.opacity-80 {
+  opacity: 80%;
+}
+h1.opacity-85,
+h2.opacity-85,
+h3.opacity-85,
+h4.opacity-85,
+h5.opacity-85,
+h6.opacity-85,
+p.opacity-85,
+a.opacity-85,
+ol.opacity-85,
+ul.opacity-85,
+li.opacity-85,
+td.opacity-85 {
+  opacity: 85%;
+}
+h1.opacity-90,
+h2.opacity-90,
+h3.opacity-90,
+h4.opacity-90,
+h5.opacity-90,
+h6.opacity-90,
+p.opacity-90,
+a.opacity-90,
+ol.opacity-90,
+ul.opacity-90,
+li.opacity-90,
+td.opacity-90 {
+  opacity: 90%;
+}
+h1.opacity-95,
+h2.opacity-95,
+h3.opacity-95,
+h4.opacity-95,
+h5.opacity-95,
+h6.opacity-95,
+p.opacity-95,
+a.opacity-95,
+ol.opacity-95,
+ul.opacity-95,
+li.opacity-95,
+td.opacity-95 {
+  opacity: 95%;
+}
+h1.opacity-100,
+h2.opacity-100,
+h3.opacity-100,
+h4.opacity-100,
+h5.opacity-100,
+h6.opacity-100,
+p.opacity-100,
+a.opacity-100,
+ol.opacity-100,
+ul.opacity-100,
+li.opacity-100,
+td.opacity-100 {
+  opacity: 100%;
 }
 
 table.border-top-1 th,

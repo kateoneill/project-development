@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/x-icon" href="docsassets/cui-logo2.svg">
+    <title>Install Guide | Constellation UI</title>
+    <link rel="stylesheet" type="text/css" href="docsassets/cui-minified.css" />
+    <link rel="stylesheet" type="text/css" href="docsassets/docs.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="xl-container">
+      <div class="row">
+        <div class="xs-3-wide">
+          <a class="line-decoration-none" href="index.html">
+            <img class="cui-logo" src="docsassets/cui-logo2.svg">
+          </a>
+        </div>
+        <div class="xs-5-wide">
+          <ul class="Roboto horizontal">
+            <li><a href="install.html" class="install">Install</a></li>
+            <li><a href="docs.html" class="docs">Docs</a></li>
+            <li><a href="https://github.com/kateoneill/project-development"><img class="github-logo" src="docsassets/github-logo.jpeg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="xl-container">
+    <div class="row gutter-12">
+      <div class="xs-8-wide md-2-wide">
+        <div class="sidebar">
+          <ul class="list-style-none line-height-200">
+            <li>
+              <a class="Roboto grey4 line-decoration-none" href="about.html"> About </a>
+            </li>
+            <li class="Roboto grey4">
+              Getting Started
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="install.html">Install</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="themes.html">Themes</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="templates.html">Templates</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Layout
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="grid.html">Grid</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="containers.html">Containers</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="platform.html">Platform</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Elements
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="buttons.html">Buttons</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="typography.html">Typography</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="images.html">Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="backgroundimages.html">Background Images</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="lists.html">Lists</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Roboto grey4">
+              Components
+              <ul class="line-height-200">
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="alerts.html">Alerts</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="cards.html">Cards</a>
+                </li>
+                <li>
+                  <a class="Roboto grey4 line-decoration-none hover-link" href="dropdown.html">Dropdown</a>
+                </li>
+              </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="xs-8-wide md-6-wide">
+        <div class="main-content">
+          <h4 class="subheading Roboto grey5">Getting Started</h4>
+          <h1 class="Roboto white">Install</h1>
+          <div class="platform elevation-5">
+            <h2 class="Roboto grey9">NPM install</h2>
+            <p class="Roboto black">
+              Constellation UI is usable by the node package manager. The node package manager is the most straight forward to gain access to all functionality.
+              Run npm init on your folder and then:
+            </p>
+            <code>
+                > npm i constellation-ui
+            </code>
+            <p class="Roboto black">
+              In HTML files add the following code in the head tags
+            </p>
+            <code>
+              &lt;link rel="stylesheet" type="text/css" href="node_modules/constellation-ui/css/index.css"&gt;
+            </code>
+            <p class="Roboto black">
+              If you want to utilise the dropdown feature, you must add the following link also
+            </p>
+            <code>
+              &lt;script src="node_modules/constellation-ui/index.js"&gt;&lt;/script&gt;
+            </code>
+          </div>
+
+          <div class="platform elevation-5">
+            <h2 class="Roboto grey9">Install files with fonts</h2>
+            <p class="Roboto black">
+              Constellation UI is usable via downloaded file also. The following links download a zipped folder with fonts included.
+            </p>
+            <h3 class="Roboto grey9">Plain CSS</h3>
+            <a href="docsassets/cui-plain.zip" class="Roboto button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded files in your project and import it as normal into your HTML pages
+            </p>
+
+            <h3 class="Roboto grey9">Minified CSS</h3>
+            <a href="docsassets/cui-minified.zip" class="Roboto button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded files in your project and import it as normal into your HTML.
+            </p>
+
+            <p class="Roboto black">
+              If you want to use the dropdown feature in Constellation UI, you need to also download this JS file and import it into the relevant files.
+            </p>
+            <a href="docsassets/dropdown.js" class="Roboto button orange hover-outline" download>Download JS FIle</a>
+          </div>
+
+          <div class="platform elevation-5">
+            <h2 class="Roboto grey9">Install files without fonts</h2>
+            <p class="Roboto black">
+              Constellation UI is usable via downloaded file without fonts. This can be upsed to make your site as lightweight as possible, maybe you want to include your own fonts and want to save space. We have you covered:
+            </p>
+            <h3 class="Roboto grey9">Plain CSS</h3>
+            <a href="docsassets/cui-plain.css" class="Roboto button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded file in your project and import it as normal
+            </p>
+
+            <h3 class="Roboto grey9">Minified CSS</h3>
+            <a href="docsassets/cui-minified.css" class="Roboto button orange hover-outline" download>Download</a>
+            <p class="Roboto black">
+              Pop the downloaded file in your project and import it as normal
+            </p>
+
+            <p class="Roboto black">
+              If you want to use the dropdown feature in Constellation UI, you need to also download this JS file and import it into the relevant files.
+            </p>
+            <a href="docsassets/dropdown.js" class="Roboto button orange hover-outline" download>Download JS FIle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

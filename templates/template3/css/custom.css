@@ -1,0 +1,103 @@
+.arrow-down {
+  max-height: 100px;
+  width: auto;
+  object-fit: cover;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+.feat-headline {
+  font-size: 35px;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+.hero {
+  height: 1000px;
+  margin-bottom: 50px;
+}
+
+.hero img {
+  height: 1000px;
+  width: auto;
+  object-fit: cover;
+}
+
+.features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonials p {
+  font-size: 25px;
+}
+
+.faq h5 {
+  font-size: 25px;
+  opacity: 100%;
+}
+
+h5 .answer {
+  font-size: 20px;
+}
+
+.faq {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.buy-now {
+  background-color: #363636;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.buy-now a {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.blue-no-dec {
+  text-decoration: none;
+  color: #009dc3;
+}
+
+.blue-no-dec:hover {
+  color: white;
+  font-weight: 700;
+}
+
+.contact p{
+  font-size: 30px;
+}
+
+.nav-bar ul li { 
+  font-size: 25px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color:#009dc3;
+}

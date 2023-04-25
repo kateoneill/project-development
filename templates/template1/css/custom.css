@@ -1,0 +1,140 @@
+.temp-logo {
+  max-width: 65px;
+  height: auto;
+}
+
+.front-nav {
+  display: flex;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.nav-links :hover {
+  color: pink;
+}
+
+.socials {
+  max-width: 25px;
+  height: auto;
+  padding-right: 25px;
+}
+
+.bckg {
+  background-image: url("../assets/night-lisbon.jpeg");
+  height: 600px;
+}
+
+.content {
+  position: absolute;
+  top: -75px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+.content a:hover {
+  color: black;
+}
+
+.post-card {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.archive-link {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.archive-link:hover {
+  color: black;
+}
+
+.feature-img {
+  background-image: url("../assets/nyc.jpeg");
+  height: 400px;
+}
+
+.info-post {
+  position: relative;
+  top:-250px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.opacity-100 {
+  opacity: 100%;
+}
+
+.info-post h2 {
+  font-size: 30px;
+}
+
+.recent-posts {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  margin-left: 60px;
+}
+
+.about-content h3 {
+  font-size: 30px;
+}
+
+.about-content a:hover {
+ color: black;
+}
+
+.about-content .button {
+  margin-top: 70px;
+}
+
+.footer {
+  background-color: #222222;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gallery {
+  background-color: #181818;
+}
+
+.blog-card h4 {
+  font-size: 20px;
+}
+
+.blog-card p {
+  font-size: 14px;
+}
+
+.what-want {
+  background-color: #323232;
+}

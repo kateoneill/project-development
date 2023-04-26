@@ -4,7 +4,7 @@
 Constellation UI is a CSS framework designed for dark mode. It's core features include responsiveness, customisability and its dark theme nature.
 
 ## How to use it
-There are install guides available on[constellation-ui.kateoneill.ie.](https://constellation-ui.kateoneill.ie/)
+There are install guides available on [constellation-ui.kateoneill.ie.](https://constellation-ui.kateoneill.ie/)
 <br><br>
 To install it via npm run 
 > npm constellation-ui
